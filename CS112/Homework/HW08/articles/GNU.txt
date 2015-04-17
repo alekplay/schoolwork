@@ -1,0 +1,3 @@
+GNU
+GNU is the name of a computer operating system. The name is short for GNU's Not Unix. Richard Stallman leads the project working on GNU, known as the GNU Project. It was created to replace the UNIX operating system with all free and open source software. People often mistakenly call it Linux.
+The GNU operating system project was announced in 1983, and work on it began in 1984. The kernel most commonly used with GNU is Linux. GNU in combination with Linux is called GNU/Linux. Because of its free nature, software from the GNU system can often be built (or "compiled"), to run on other operating systems like Microsoft Windows and Mac OS X and is often compatible with other systems inspired by UNIX.

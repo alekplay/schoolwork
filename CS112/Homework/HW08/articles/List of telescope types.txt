@@ -1,0 +1,3 @@
+List of telescope types
+Astronomical telescopes are divided into subgroups. All telescopes work by collecting electromagnetic radiation and focussing it into an image which may be seen or photographed. The purpose is to see things which are far away in the universe.
+The traditional types all work to collect visible light from the sky. Recent types may work outside the visible spectrum. They all have their different advantages and disadvantages and they are used in different areas of astronomy.

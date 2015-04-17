@@ -1,0 +1,60 @@
+List of stars with confirmed extrasolar planets
+The following is a list of main sequence stars with confirmed extrasolar planets. Note that the masses of the planets are lower bounds only. If a planet is detected by the spectral line displacement method referred to above, no information is gained about the inclination of the planet's plane of orbit around its star, and a value for this is needed to calculate the mass. It has become customary to arbitrarily assume that the plane is exactly lined up with the line of sight from Earth (this produces the lowest possible mass consistent with the spectral line measurements).
+HD 83443 - .35 MJ and .16 MJ
+HD 16141 - .215 MJ.
+HD 168746 - .24 MJ
+HD 46375 - .249 MJ
+HD 108147 - .34 MJ
+HD 75289 - .42 MJ
+51 Pegasi - .47 MJ (0.25-AU)
+BD -10 3166 - .48 MJ
+HD 6434 - .48 MJ
+HD 187123 - .52 MJ
+HD 209458 - .69 MJ
+Upsilon Andromedae - .71 MJ (0.06AU), 2.11 MJ (0.83AU), and 4.61 MJ (2.5AU)
+HD 192263 - .76 MJ
+Epsilon Eridani - .86 MJ
+HD 38529 - .81 MJ
+HD 179949 - .84 MJ
+55 Cancri - .84 MJ (0.25-AU) and >5? MJ
+HD 82943 - .88 MJ and 1.63 MJ
+HD 121504 - .89 MJ
+HD 37124 - 1.04 MJ
+HD 130322 - 1.08 MJ
+Rho Coronae Borealis - 1.1 MJ (0.5-AU)
+HD 52265 - 1.05 MJ
+HD 177830 - 1.28 MJ
+HD 217107 - 1.282 MJ
+HD 210277 - 1.24 MJ
+HD 27442 - 1.43 MJ
+16 Cygni B - 1.5 MJ (1.5+AU)
+HD 74156 - 1.56 MJand >7.5 MJ
+HD 134987 - 1.58 MJ
+HD 160691 - 1.97 MJ
+HD 19994 - 2.0 MJ
+GJ 876 - 1.98 MJ and .56 MJ
+HD 92788 - 3.8 MJ
+HD 8574 - 2.23 MJ
+HR 810 - 2.24 MJ
+47 Ursae Majoris - 2.54 MJ (2+AU) and .76 MJ
+HD 12661 - 2.83 MJ
+HD 169830 - 2.94 MJ
+14 Herculis - 3.3 MJ
+GJ 3021 - 3.37 MJ
+HD 80606 - 3.90 MJ
+HD 195019 - 3.43 MJ
+HD 213240 - 3.7 MJ
+GJ 86 - 4 MJ
+Tau Boötis - 3.87 MJ (0.25-AU)
+HD 50554 - 4.9 MJ
+HD 190228 - 4.99 MJ
+HD 168443 - 7.2 and 17.1 MJ
+HD 222582 - 5.4 MJ
+HD 28185 - 5.6 MJ
+HD 178911 B - 6.47 MJ
+HD 10697 - 6.59 MJ
+70 Virginis - 6.6 MJ (0.5AU)
+HD 106252 - 6.81 MJ
+HD 89744 - 7.2 MJ
+HD 141937 - 9.7 MJ
+HD 114762 - 11 MJ (0.5-AU)

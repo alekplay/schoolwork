@@ -1,0 +1,6 @@
+Link
+For the video game character see Link (The Legend of Zelda)
+A link, also hyperlink in computing, is a part of a chain. A chain is made of many pieces of metal; each piece is a link.
+Today, people also use the word link in a new way. The World Wide Web on the Internet is made of many different Web pages. The computer software that people use to make these pages (HTML) lets us go to other pages in a very fast and easy way.
+The person who makes the web page can tell the computer to show a word or a picture on the Web page as a link. This means that when we click on the link with our computer mouse, the computer will show us the new page we want to see. Most links are blue, but they can be any color.
+The color of the link will change to dark blue when clicked as the web browser recognises it in the browser's cache. Unless the cache is cleared, the link will always stay dark blue.

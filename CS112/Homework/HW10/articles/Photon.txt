@@ -1,0 +1,4 @@
+Photon
+Photons (from Greek φως, meaning light), in many atomic models in physics, are particles which transmit light. In other words, light is carried over space by photons. Photon is an elementary particle that is its own antiparticle. In quantum mechanics each photon has a characteristic quantum of energy.
+Photons have a rest mass of 0 (zero). However, Einstein's theory of relativity says that they do have a certain amount of momentum. Before the photon got its name, Einstein revived the proposal that light consists of separate pieces of energy (particles). These particles came to be known as photons.
+A photon is usually given the symbol γ (gamma),

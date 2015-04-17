@@ -1,0 +1,5 @@
+C (programming language)
+The C programming language is a computer programming language that was developed to do system programming for the operating system UNIX. C is an imperative programming language. C was developed in the early 1970s by Ken Thompson and Dennis Ritchie. It is a procedural language, which means that people can write their programs as a series of step-by-step instructions. C is a compiled language.
+Because the ideas behind C are kept close to the design of the computer, the compiler (program builder) can generate instructions for the computer that will run very fast. This makes C a good language for writing operating systems. Many operating systems, including Linux and UNIX, are programmed using this language. The language itself has very few keywords, and most things are done using libraries.
+C is available for many different types of computers. This is why C is called a "portable" language. A program that is written in C and that respects certain limitations can be compiled for many different platforms.
+The syntax of C has also influenced many other programming languages, such as C++, C#, and Java.

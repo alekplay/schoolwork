@@ -1,0 +1,14 @@
+Virus
+A virus is a tiny parasite which can infect living organisms. It is made only of RNA + protein coat; sometimes of DNA+ protein.
+Their method is to get their (usually) RNA strand into a prokaryote or eukaryote cell. The RNA then takes over the cell machinery to reproduce itself and the protein coat. The cell then bursts open, spreading the virus.
+All viruses act in this way, and there are no free-living viruses.
+Viruses are ubiquitous (everywhere), and all organisms suffer their attacks.
+Viruses are much smaller than bacteria. They were not visible until the invention of the electron microscope. A virus has a simple structure. It has no internal cellular structure, no cell wall or cell membrane. They are made of only a protein coat that holds a string of nucleic acid.
+With eukaryote cells, the virus' protein coat is able to enter the target cells via certain cell membrane receptors. With prokaryote bacteria cells, the bacteriophage physically injects the nucleic acid strand into the host cell.
+Viruses have the following characteristics:
+Infectious particles, causing many types of disease;
+Contain nucleic acid core RNA or DNA;
+Surrounded by a protective protein coat;
+When the host cell has finished making more viruses, it undergoes lysis, or breaks apart. The viruses are released and are then able to infect other cells. Viruses can remain intact for a long time, and will infect cells when the time and conditions are right.
+Some specialised viruses are worth noting. Bacteriophages are evolved to enter bacterial cells, which have a different type of cell wall from eukaryote cell membranes. Envelope viruses, when they reproduce, cover themselves with a modified form of the host cell membrane, thus gaining an outer lipid layer that helps entry. Some of our most difficult-to-combat viruses, like influenza and HIV, use this method.
+Viral infections in animals provoke an immune response that usually eliminates the infecting virus. Immune responses can also be produced by vaccines, which confer an artificially acquired immunity to the specific viral infection. However, some viruses including those causing AIDS and viral hepatitis evade these immune responses and result in chronic infections. Antibiotics have no effect on viruses, but several antiviral drugs have been developed.

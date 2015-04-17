@@ -1,0 +1,91 @@
+List of bones of the human skeleton
+A typical adult human skeleton consists of the following 206 bones. The exact number of the bones in the human skeleton is different in each person.
+In the skull (22):
+Cranial bones:
+frontal bones
+
+temporal bones (2)
+occipital bone
+sphenoid bone
+ethmoid bone
+
+Facial bones:
+mandible
+maxilla (2)
+palatine bone (2)
+zygomatic bone (2)
+nasal bone (2)
+lacrimal bone (2)
+vomer bone
+inferior nasal conchae (2)
+
+In the middle ears (6):
+malleus (2)
+incus (2)
+stapes (2)
+In the throat (1):
+hyoid bone
+In the shoulder girdle (4):
+scapula or shoulder blade (2)
+clavicle or collarbone (2)
+In the thorax (25):
+sternum
+ribs (2 x 12)
+In the vertebral column (24):
+cervical vertebrae (7) incl. atlas & axis
+thoracic vertebrae (12)
+lumbar vertebrae (5)
+In the arms (6):
+humerus (2)
+radius (2)
+ulna (2)
+In the hands (54):
+Wrist (carpal) bones:
+scaphoid bone (2)
+lunate bone (2)
+triquetral bone (2)
+pisiform bone (2)
+trapezium (2)
+trapezoid bone (2)
+capitate bone (2)
+hamate bone (2)
+
+Palm or metacarpal bones:
+metacarpal bones (5 × 2)
+
+Finger bones or phalanges:
+proximal phalanges (5 × 2)
+intermediate phalanges (4 × 2)
+distal phalanges (5 × 2)
+
+In the pelvis (4):
+coccyx
+sacrum
+ossa coxae (hip bones or innominate bones) (2)
+In the legs (8):
+femur (2)
+patella (2)
+tibia (2)
+fibula (2)
+In the feet (52):
+Ankle (tarsal) bones:
+calcaneus (heel bone) (2)
+talus (2)
+navicular bone (2)
+medial cuneiform bone (2)
+intermediate cuneiform bone (2)
+lateral cuneiform bone (2)
+cuboid bone (2)
+
+Instep bones:
+metatarsal bone (5 × 2)
+
+Toe bones:
+proximal phalanges (5 × 2)
+intermediate phalanges (4 × 2)
+distal phalanges (5 × 2)
+
+The infant skeleton has the following bones in addition to those above:
+sacral vertebrae (4 or 5), which fuse in adults to form the sacrum
+coccygeal vertebrae (3 to 5), which fuse in adults to form the coccyx
+ilium, ischium and pubis, which fuse in adults to form the pelvic girdle

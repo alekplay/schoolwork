@@ -1,0 +1,2 @@
+List of planets
+This is a list of two types of planets: standard planets and dwarf planets, in the Solar System.

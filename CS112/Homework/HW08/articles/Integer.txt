@@ -1,0 +1,6 @@
+Integer
+Integers are the whole numbers and their negatives. 
+These are some of the integers:
+
+Integers consist of all of the numbers that have no decimal expansion. In other words, they have only zeros after their decimal, which we normally choose not to write. 0 is also an integer, even though it has no positive nor negative signs. Integers are a countable subset of the rational numbers and real numbers.
+Consecutive integers are integers that come after each other, like

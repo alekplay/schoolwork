@@ -1,0 +1,3 @@
+Computer graphics
+Computer graphics are visual representations of data displayed on a monitor made on a computer. Computer graphics can be a series of images (most often called video) or a single image.
+Computer graphics are very useful. Computer-generated imagery is used for movie making, video game and computer program development, scientific modeling, and design for catalogs and other commercial art. Some people even make computer graphics as art.

@@ -1,0 +1,7 @@
+Graph theory
+Graph theory is a field of mathematics about graphs. A graph is an abstract representation of: A number of points are connected by lines. Each point is usually called a vertex (more than one are called vertices), and the lines are called edges. Graphs are a tool for modelling relationships. They are used to find answers to a number of problems.
+Some of these questions are:
+What is the best way for a mailman to get to all of the houses in the area in the least amount of time? The points could represent street corners and lines could represent the houses along the street. (see Chinese postman problem)
+A salesman has to visit different customers, but wants to keep the distance traveled as small as possible. The problem is to find a way so they can do it. This problem is known as Travelling Salesman Problem (and often abbreviated TSP). It is among the hardest problems to solve. If a commonly believed conjecture is true (described as P ≠ NP), then an exact solution requires one to try all possible routes to find which is shortest.
+How many colors would be needed to color a map, if countries sharing a border are colored differently? The points could represent the different areas and the lines could represent that two areas are neighboring. (look at the Four color theorem)
+Can a sketch be drawn in one closed line? The lines of the drawing are the lines of the graph and when two or more lines collide, there is a point in the graph. The task is now to find a way through the graph using each line one time. (look at Seven Bridges of Königsberg)

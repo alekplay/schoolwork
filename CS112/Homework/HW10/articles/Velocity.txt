@@ -1,0 +1,4 @@
+Velocity
+Velocity is a measure of how fast something has moved in a particular direction.  In physics, velocity means the time it took an object to move from one place to another (displacement), and the direction of movement - this is known as a vector quantity. An object could travel at 7 metres per second in a direction of 30 degress south of east. This is velocity.
+ plus direction.
+So for example something that moves in a square, and finishes back where it started, has not been displaced. This would mean that the object's displacement = zero, and it would have a velocity of zero. It is different to the speed that it moved around the square. People often use velocity and speed to mean the same thing, but they are different, velocity must have a direction.

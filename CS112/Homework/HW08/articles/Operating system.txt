@@ -1,0 +1,2 @@
+Operating system
+An operating system (also called an OS) is a piece of software that is needed to run the programs on a computer or a mobile device. The programs that run on an operating system talk to the hardware.

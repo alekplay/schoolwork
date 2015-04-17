@@ -1,0 +1,4 @@
+Matrix (mathematics)
+In mathematics, a matrix (plural: matrices) is a rectangular table of cells of numbers, with rows and columns. The rows are each left-to-right (horizontal) lines, and the columns go top-to-bottom (vertical). The top-left cell is at row 1, column 1 (see diagram at right).
+There are rules for adding, subtracting and "multiplying" matrices together, but the rules are different than for numbers. As an example,  does not always give the same result as , which is the case for the multiplication of ordinary numbers. A matrix can have more than 2 dimensions, such as a 3D matrix. Also, a matrix can be one-dimensional, as a single row or column.
+Many natural sciences use matrices quite a lot. In many universities, courses about matrices (usually called linear algebra) are taught very early, sometimes even in the first year of studies. Matrices are also very common in computer science.

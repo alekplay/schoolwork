@@ -1,0 +1,4 @@
+Electron
+An electron is a very small piece of matter and energy. Its symbol is e−.
+The electron is a subatomic particle. It is believed to be an elementary particle because it cannot be broken down into anything smaller. It is negatively charged, and may move almost at the speed of light.
+Electrons take part in gravitational, electromagnetic and weak interactions. The electricity that powers radios, motors, and many other things consists of many electrons moving through wires or other conductors.

@@ -1,0 +1,13 @@
+Combinatorial game theory
+Combinatorial game theory is a mathematical theory of games. It is sometimes called CGT. It is part of general game theory. It came from ideas from the solution to the game of Nim. It also partly came from looking at the oriental game Go.
+CGT proves things about combinatorial games. A game must meet several conditions to be a combinatorial game. These are:
+The game has two players.
+The last player to move wins. If a player can not move on his turn, that player loses.
+Players alternate turns.
+The game has an end. It can not go on forever.
+The game can not end in a tie or draw.
+There is no information kept from the players (like there is in poker, for example)
+There are no chance moves. Luck is not a part of the game.
+Very few of the games that people play for fun meet these conditions. For example, chess has draws.
+These combinatorial games can be represented by trees, each vertex of which is the game resulting from a particular move from the game directly below it on the tree. These games can be assigned game values. Finding these game values is of great interests to CG theorists, as is the theoretical concept of game addition. The sum of two games is the game in which each player on her/his turn must move in only one of the two games, leaving the other as it was.
+Elwyn Berlekamp, John Conway and Richard Guy are the founders of the theory. They worked together in the 1960s. Their published work was called Winning Ways for Your Mathematical Plays.

@@ -1,0 +1,2 @@
+Turing test
+The Turing test is a test to see if a computer can trick a person into believing that the computer is a person too. Alan Turing thought that if a human could not tell the difference between another human and the computer, then that computer must be as intelligent as a human.

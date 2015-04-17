@@ -1,0 +1,8 @@
+Creative Commons licenses
+The Creative Commons licenses relates to the name of copyright licenses released on December 16, 2002. The licenses were released by Creative Commons, a United States nonprofit corporation. Everybody can put their own creations under these licenses.
+There are four basic license conditions. A simple overview of these four:
+Attribution (by): Allow others to copy, distribute, display and perform the work and evolved versions of it. They must give the original creator credit for the work.
+Noncommercial (nc): Allow others to copy, distribute, display and perform the work and evolved version of it. They are not allowed to make money with it.
+No Derivative Works (nd): Allow others to copy, distribute, display and perform the work. They are not allowed to change the work into something else.
+Share Alike (sa): Allow others to distribute evolved works only when they use the same license. See also copyleft.
+It is possible to combine the license elements. For example a combination of the first and fourth is called "CC by-sa". This stands for "Creative Commons Attribution-ShareAlike". With this license other people must give credit to the original creator, and when they make something new with the work they have to give it the "CC by-sa" license.

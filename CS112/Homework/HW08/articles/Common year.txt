@@ -1,0 +1,18 @@
+Common year
+A common year is a year that is not a leap year. In the Gregorian Calendar a common year has 365 days. This means a common year has 52 weeks and one day. So if a certain year started on a Monday, the following year will start on a Tuesday. Stated differently, a common year always begins and ends on the same day of the week. (For example, in 2009, both January 1 and December 31 fell on a Thursday.)
+In the Gregorian calendar, 303 out of every 400 years are common years. In the Julian calendar, 300 out of every 400 years were common years. All the other years are special and known as leap years.
+2001 began on a Monday
+2002 began on a Tuesday
+2003 began on a Wednesday
+2004, a leap year, began on a Thursday
+2005 began on a Saturday
+2006 began on a Sunday
+2007 began on a Monday
+2008, a leap year, began on Tuesday
+2009 began on a Thursday
+2010 began on a Friday
+2011 began on a Saturday
+2012, a leap year, began on a Sunday.
+2013 began on a Tuesday
+2014 began on a Wednesday.
+2015 will begin on a Thursday.

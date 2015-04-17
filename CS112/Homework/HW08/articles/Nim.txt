@@ -1,0 +1,7 @@
+Nim
+Nim is a simple game used for examples in combinatorial game theory. The rules of nim are simple:
+The game begins with some piles of counters.
+Players alternate turns.
+On a turn, a player takes counters from a pile. At least one counter must be taken. All counters must be in the same pile.
+If a player cannot take a counter, that player loses.
+There is a simple mathematical strategy to play the game perfectly. If both players play perfectly, the winner is determined by the initial setup.

@@ -1,0 +1,60 @@
+CS112 - Homework 11 - prof. Snyder
+Aleksander Skjoelsvik - U54904431 - 27th of April 2014
+
+Part A:
+
+Problem 1: 	(1 + 1) - (1 + 1 + 1 + 2) = -3
+		(1 + 1 + 1) - (2 + 1) = 0
+		(2 + 2 + 1) - (1 + 1) = 3
+
+Problem 2:	(1 + 1 + 2 + 1) - (1 + 1) =  3
+		(1 + 2) - (1 + 1 + 1) = 0
+		(1 + 1) - (2 + 2 + 1) = -3
+
+Problem 3: 	(1 + 1) - (1 + 1 + 1 + 4) = -5
+		(1 + 1 + 1) - (1 + 4) = -2
+		(4 + 4 + 1) - (1 + 1) = 7
+
+Problem 4:	
+max			  5
+	      |		  |	      |
+min	      3	 	  5	     -2
+	  |	  |	  |  	 |	   |
+max	  5	  3	  5	-2	  -1
+	|  |	|   |	|  |	 |	 |   |
+min	1  5	-1  3	3  5	-2	-1  -5
+
+The middle path straight down (following the 5s) would be taken by the root
+
+Problem 5:
+max			  2
+	      |		  |	      |
+min	     -2	 	 -5	      2
+	  |	  |	  |  	 |	   |
+max	 -2	  2	 -5	 2	  15
+	|  |	|   |	|  |	 |	 |   |
+min    -2 -8	2  -3  -9 -5	 2	 1   15
+
+The root would go to the right, then to the left (2->, <-2, ^2)
+
+Problem 6:
+max			 10
+	      |		  |	      |
+min	     10 	  5	      0
+	  |	  |	  |  	 |	   |
+max	 11 	 10	  5	 0	  11
+	|  |	|   |	|  |	 |	 |   |
+min    11 -1   10  -3 -12  5	 0	11   3
+
+The root would go to the left, then to the right, then to the left (<-10, 10->, <-10)
+
+Problem 7:
+	A:	<=5
+	B:	>=-1
+	C:	No.
+
+Problem 8:
+	A:	<=-2
+	B:	>=5
+	C:	Yes.
+

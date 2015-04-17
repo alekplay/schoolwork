@@ -1,0 +1,15 @@
+Direction
+Direction follows an imaginary line connecting two points. Something following the line is moving in that direction. People show directions by pointing.
+The word direction is made from the root direct meaning to guide.
+These are words used to talk about a direction:
+Up
+Down
+Backward
+Left
+Right
+Northeast
+South
+Southeast
+East
+Northeast
+West

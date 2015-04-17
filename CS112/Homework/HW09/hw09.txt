@@ -1,0 +1,47 @@
+CS112 - Homework 09 - prof. Snyder
+Aleksander Skjoelsvik - U54904431 - 8th of April 2014
+
+Part A:
+
+Problem 1:
+		A.	A, B, D, C; E, F
+		B.	A, B, C, D; E, F 
+		C.	A, C, D, B; E, F
+		D.	F, E; D, B, C, A
+		E. 	F, E; D, B, C, A 
+
+Problem 2:
+		A.	A, B, D, C, E
+		B.	A, B, D, E, C
+		C.	A, E, D, C, B
+		D.	E, B, D, C, A 
+		E.	E, B, A, D, C
+
+Problem 3:
+		A.	3, 1, 2, 5, 8, 6, 4, 7
+		B.	3, 1, 5, 2, 4, 8, 6, 7
+ 		C.	3, 5, 8, 7, 6, 4, 2, 1
+
+Problem 4:
+		A1.	A, E, F, G, B, C, D
+		A2.	[E F D]
+		B.	A, E, B, F, C, G, D
+		C1.	G; F; E; D, B, C, A
+		C2.	G; F; E; D, B, C, A
+		D.	G; F; E; D, B, C, A
+
+Problem 5:
+		A1.	A, B; C, F, E, G, D
+		A2.	A, B; C, D, F, G, E
+		B.	A, B; C, F, D, E, G 
+		C1.	G, D, B; F, E, A; C
+		C2.	G, D, B; F, E, A; C
+		D.	G, D, B; F, E, A; C
+
+Problem 6:	Not possible because cycle
+
+Problem 7:	A, E, C, F, G, D, B
+
+Problem 8:	Not possible because cycle
+
+Problem 9:	E, A, F, G, C, B, D

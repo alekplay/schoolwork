@@ -1,0 +1,2 @@
+Geometry
+Geometry is a kind of mathematics that studies the size, shapes, and positions of things. There are flat (2D)shapes and solid (3D) shapes in geometry. Squares, circles and triangles are some of the simplest shapes in flat geometry. Cubes, cylinders, cones and spheres are simple shapes in solid geometry.

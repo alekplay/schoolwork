@@ -1,0 +1,5 @@
+Second
+The second (symbol: s) is a unit of time, and one of the seven SI base units. It is the time taken by 9,192,631,770 cycles of radiation that comes from electrons moving between two energy levels of the caesium-133 atom.
+The second (SI symbol: s), sometimes abbreviated sec., is the name of a unit of time, and is the International System of Units (SI) base unit of time.
+Other (non-SI) units of time are defined in terms of the second. There are 86,400 seconds in one day, 3,600 seconds in one hour, and 60 seconds in one minute.
+SI prefixes are frequently combined with the word second to denote subdivisions of the second, e.g., the millisecond (one thousandth of a second) and nanosecond (one billionth of a second). Though SI prefixes may also be used to form multiples of the second (such as “kilosecond”, or one thousand seconds), such units are rarely used in practice. More commonly encountered, non-SI units of time such as the minute, hour, and day increase by multiples of 60 and 24 (rather than by powers of ten as in the SI system).

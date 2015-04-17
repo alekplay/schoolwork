@@ -1,0 +1,3 @@
+Angle
+An angle is the space between two lines that meet each other. When two lines meet at a point, an angle is formed. The two lines are called the arms of the angle.
+To measure the size of an angle, we use degree. Degree is a standard unit. Degree is denoted by the symbol '°'. A degree can be divided into 60 minutes (1° = 60'), and a minute can be also be divided into 60 seconds (1' = 60"). In mathematics, angles are usually measured in radians.

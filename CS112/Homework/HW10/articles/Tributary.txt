@@ -1,0 +1,3 @@
+Tributary
+A tributary of a river is another river that flows into it. If one river flows into a second river, then the first river is a tributary of the second river. A tributary is a body of water that flows into another body of water.
+The opposite of a tributary is a distributary, a river that branches off from the main flow of water.

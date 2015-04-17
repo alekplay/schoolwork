@@ -1,0 +1,35 @@
+Computer jargon
+Computer jargon means words to do with computers and surrounding topics. Knowing what these words mean can help people know more about computers. Most people use these words to discuss computer ideas, but some people use these words to impress others (also known as buzzwords).
+Some examples of jargon are:
+Disk - A place to store data.
+Data - Information stored on a computer. The amount of data that is stored on a disk is measured with the following terms:
+Bit - The smallest data unit, can either be a "0" or a "1."
+Nybble - there are 4 bits in a Nybble.
+Byte - there are 8 bits in a byte.
+Kilobyte - There are 1024 Bytes in a Kilobyte.
+Megabyte - There are 1024 Kilobytes in a Megabyte.
+Gigabyte - There are 1024 Megabytes in a Gigabyte.
+
+Upload - To put data on somewhere. For example, on the internet or a website, "I uploaded my pictures to Facebook."
+Download - To take data from somewhere. For example, "I downloaded a song from iTunes."
+Load - To get data from, or put it on, a disk.
+Save - To put data on a disk.
+RAM - Memory, the more the better.
+ROM - Memory too, but you can only get data from it.
+
+Hardware - The solid, hand-touchable things in or that connect to a computer, like monitors, fans, CPU, etc.
+CPU - Central Processing Unit, another name for processor.
+GHz - Gigahertz. Used to describe the speed of a processor. Some processors are capable of doing more than one thing at once, as they have multiple "cores", so a bigger number is not necessarily better. The bigger the GHz number, the more it spends energy.
+
+USB - A method used to plug computer tools into a machine.
+Email - Electronic mail.
+WWW - World Wide Web, part of the Internet.
+Broadband - A way to connect to the internet.
+WiFi - A way to connect to a network wirelessly.
+Plug & Play - A function from the OS that auto-recognizes any change to the hardware of the computer.
+OS - Operating System. The main program that controls all the computer functions, it calls other programs.
+Program - Set of data that tells the processor what to do and call for in the rest of PC.
+Software - Another name for program.
+Installation - The way a software sets the place for itself in a computer.
+Virus - Bad software made to mess up a computer or destroy data; nothing good comes from it.
+Hacker - People who search flaws in the way computers work. They can use their knowledge for evil, too.

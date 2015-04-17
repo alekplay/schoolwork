@@ -1,0 +1,2 @@
+List of countries by area
+This is a list of countries by total area. Total area is the sum of all land and inland water bodies (lakes, reservoirs, rivers).

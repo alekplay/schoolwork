@@ -1,0 +1,13 @@
+UNIX
+UNIX, often spelled "Unix" when the product trademark is not important, is a multi-user multi-proccessing operating system. It was developed beginning in 1969 at Bell Labs. It was created by Ken Thompson, Dennis Ritchie, Douglas McIlroy, and others, using the newly invented C programming language. The system itself is a multiuser and multiprocessing system, enabling it to perform multi-threaded applications, support multiple applications at one time, and support a large number of users at the same time. It also is network oriented; which means that it is able to operate well in a network of computers. Security is also emphasized in Unix, due to the requirements of the multiuser environment, but also due to the networking it is primarily made for.
+Many ideas found in Unix were new. Other operating systems copied them. Today, there are many operating systems that have some of the ideas of Unix in them. For this reason, some people talk about a "Unix philosophy" of doing things. One of these systems with many of the Unix ideas in it, is called Linux. Linux does not use code from UNIX, it only shares some of the ideas. Therefore Linux is not a UNIX operating system. Instead it is called "Unix-like".
+There can be many different users in a Unix-like operating system. Most of them have a personal area where they can put things. This is called a user account.
+The main method of interacting with a Unix system is the command line interface. Users run commands and programs by typing text characters (the "command lines"). This is a very powerful and flexible way of working, because it allows things to be combined and done automatically, and it is still used by most Unix users and administrators.
+A graphical user interface usually used by Unix systems is the X Window System. The X Window System is only a shell of a graphical interface. It is made of many protocols. The X Window System itself does not provide decorations for windows or controls to the user to move and resize windows. This is handled by a window manager or desktop manager.
+Some of the popular desktop environments and window managers are:
+Gnome
+KDE
+Windowmaker
+Xfce
+Like most other graphical user interfaces, they use windows, dialog boxes, support the use of a computer mouse and are designed to be easy to use.
+There are many thousands of programs available for the X Window System. Programs like word processors and spreadsheets are available including free and open-source software.

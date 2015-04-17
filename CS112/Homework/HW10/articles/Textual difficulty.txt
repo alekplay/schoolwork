@@ -1,0 +1,4 @@
+Textual difficulty
+Textual difficulty means how easy or hard a text is to read. Research has shown that two main factors affect the ease with which texts are read.
+How difficult the words are: this is lexical difficulty. Rare words are less well known than common words. Rare, difficult words are often longer than common, easy words.
+How difficult the sentences are: this is syntactical difficulty. Long, complicated sentences cause more difficulty than short, simple sentences.

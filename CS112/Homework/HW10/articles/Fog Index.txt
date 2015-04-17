@@ -1,0 +1,5 @@
+Fog Index
+This is a redirect from a title for a "minor topic or title" to a comprehensive-type article section which covers the subject (implicitly, not notable enough to have a separate article).
+This template automatically categorizes pages to Category:Redirects to sections
+See also/use
+when more appropriate: {{R to list entry}} and Category:Redirects to list entries

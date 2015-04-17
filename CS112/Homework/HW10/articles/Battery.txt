@@ -1,0 +1,3 @@
+Battery
+A battery is a device that can create electricity using a chemical reaction. It converts energy stored in molecules inside the battery into electricity. They produce direct current (DC) electricity (electricity that flows in one direction, and does not switch back and forth).
+Using the electricity from an outlet in a house or building is cheaper and uses less energy, but a battery can provide electricity in areas that do not have wired electricity. It is also useful for things that are moved around and cords would get in the way.

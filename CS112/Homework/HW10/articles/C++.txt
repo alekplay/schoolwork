@@ -1,0 +1,3 @@
+C++
+C++ (pronounced "see plus plus") is a computer programming language. It has been created for writing programs for many different purposes. In the 1990s, C++ became one of the most used programming languages.
+The C++ programming language was developed by Bjarne Stroustrup at Bell Labs in the 1980s. It was originally named "C with classes". The language was planned as a better version of the C programming language and it added features like object-oriented programming. Step by step, a lot of advanced features were added to the language, like operator overloading, exception handling and templates.

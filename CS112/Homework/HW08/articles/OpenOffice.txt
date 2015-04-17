@@ -1,0 +1,4 @@
+OpenOffice
+Apache OpenOffice (formerly OpenOffice.org) is a free open source office suite. The free software project was formerly hosted by Sun Microsystems and then Oracle Corporation and is currently hosted by Apache. It is available for many different operating systems, including Microsoft Windows, Linux, OS X, FreeBSD and Solaris; and is meant to be an alternative to Microsoft Office. It supports Microsoft Office file formats as well as its own OpenDocument format.
+The ".org" part of the previous name OpenOffice.org is there because OpenOffice is already trademarked. It is often called "OOo" for short.
+OpenOffice is based on the older StarOffice software that was created by Sun Microsystems.

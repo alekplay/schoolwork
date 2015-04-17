@@ -1,0 +1,93 @@
+Lab 08 - 3/31/2014
+Aleksander Skjoelsvik - U54904431
+
+Exercise 1:
+
+	1. Best performance:		| Add Ling Cong / Naive Add / Folding
+	2. Need "industrial strength"?	| Not really, some of the non-industrial strength did just as well/ better in this case
+	3. Simplest:			| Naive Add
+
+Exercice 2:
+
+	A:	1. Observed	| The mean bucket length is slightly less, the optimal lookup cost is slightly smaller, mean lookup cost is much larger, and so is the min lookup cost
+		2. Why?		| As the LC Multiplier goes down and the hash table size goes up, the performance gets poorer. 
+
+	B:	1. Observed	| Both the mean bucket length and optimal lookup cost is the same as last time, but min and mean lookup cost is way larger.
+		2. Why?		| The hash table size stays the same, but LC Multiplier is not a prime number. Prime numbers does better.
+
+	C:	Table size: 131, LC Multiplier: 1217
+		1. Observed	| Mean bucket length and optimal lookup cost is larger than ever, and so is the mean lookup cost. However, the min lookup cost is now down at 1, while the max is at 330
+		2. Why?		| The hash table size decreases again, but the LC Multiplier increases. This causes the mean lookup cost to grow very large, but the min lookup cost goes down to 1. The overall performance is poorer.
+
+	(Table at bottom of document)
+
+Exercice 3:
+
+	A:	1. Observed	| The mean lookup cost is quite large compared to the hash table size. However, the rest of the data is small.
+		2. Why		| This performs badly as the mean bucket length is pretty high compared to the number of keys entered. This is a result of the fact that the keys are variations of the same letters, so they get placed in the same buckets.
+
+	B:	Table size: 97, LC Multiplier: 1109
+		1. Observed	| When both variables were increased, everything went down, except the min and max lookup cost which stayed the same.
+		2. Why		| Increasing the table size and LC Multiplier increases overall performance.
+
+	c:	1. Observed 	| The other industrial strength functions did way better, at least in terms of performance. The above (B) was pretty close though.
+
+
+Exercice 3 table:
+A:
+Hash table size: 11
+Number of keys: 17
+Mean bucket length: 1.5454545
+Optimal lookup cost: 1.9669420719146729
+Mean lookup cost: 4.090909
+Min lookup cost: 1 Max lookup cost: 6
+
+B:
+Hash table size: 97
+Number of keys: 17
+Mean bucket length: 0.17525773
+Optimal lookup cost: 0.10298649221658707
+Mean lookup cost: 0.46391752
+Min lookup cost: 1 Max lookup cost: 6
+
+C:
+Hash table size: 97
+Number of keys: 17
+Mean bucket length: 0.175225773
+Optimal lookup cost: 0.10298649221658707
+Mean lookup cost: 0.17525773
+Min lookup cost: 1 Max lookup cost: 1
+
+
+Exercice 2 table:
+Standard:
+Hash Table size: 137
+Number of keys: 2081
+Mean bucket length: 15.189781
+Optimal lookup cost: 122.9596176147461
+Mean lookup cost: 130.48175
+Min lookup cost = 5 Max lookup cost: 25
+
+A:
+Hash table size: 144
+Number of keys: 2081
+Mean bucket length: 14.451389
+Optimal lookup cost: 111.64701843261719
+Mean lookup cost: 223.51389
+Min lookup cost: 18 Max lookup cost: 40
+
+B:
+Has table size: 144
+Number of keys: 2081
+Mean bucket length: 14.451389
+Optimal lookup cost: 111.64701843261719
+Mean lookup cost: 1266.1597
+Min lookup cost: 153 Max lookup cost: 202
+
+C:
+Hash table size: 131
+Number of keys: 2081
+Mean bucket length: 15.885496
+Optimal lookup cost: 134.11724853515625
+Mean lookup cost: 1807.0992
+Min lookup cost: 1 Max lookup cost: 330

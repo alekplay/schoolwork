@@ -1,0 +1,13 @@
+Letter
+In some languages, for example English, we write a letter for each member of the alphabet. Letters symbolise different sounds when the language is spoken.
+Some languages do not use letters for writing: Chinese, for example, uses "ideograms".
+In English and many other languages, the smallest part of writing is the letter. We use letters to make words. In some languages, for example Spanish, there is usually one letter for one sound (or better: for one phoneme, the smallest part of speech). This is easy to read. In other languages, for example English, we can use several letters for one sound, or one letter for several sounds. This is difficult for learners to read. Here are some examples:
+Spanish: feliz has 5 letters and 5 sounds.
+English: happy has 5 letters and 4 sounds.
+In English we use the "a" in "happy" for three sounds:
+a = /æ/ (pad) OR /ɑ/ (bar) OR /Ej/ (cake)
+In Spanish we use the "a" for one sound:
+a = /a/ (gato)
+English, French, Spanish and many other languages use the Latin alphabet for writing. In this alphabet there are often two different letters for a sound. For example, "A" and "a". In other alphabets, for example the Cyrillic alphabet, there is only one letter for a sound (except for handwritten Cyrillic, in which the shape of the capital letter is much different - and usually unrecognisable - from its lowercase counterpart). The letters are: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Latin alphabet: D d
+Cyrillic alphabet: Д д

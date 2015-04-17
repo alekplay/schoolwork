@@ -1,0 +1,5 @@
+Machine code
+Machine code or machine language is the name for commands. They can directly be executed by a processor. Usually, they are 1s and 0s. Their order tells the computer what to do. This code is the lowest level of software. All other kinds of software need to be translated into machine code before they can be used.
+Each processor has its own machine code.
+Each instruction is made up of an opcode (operation code) and operand(s). An instruction tells the computer to do one thing. The operands are usually memory addresses. An instruction set is a list of the opcodes used in a computer. Machine code is what assemble code. Other programming languages are compiled to or interpreted as.
+Program builders turn code into another language or machine code. Machine code is sometimes called native code. This is used when talking about things that work on only some computers.

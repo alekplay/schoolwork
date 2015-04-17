@@ -1,0 +1,4 @@
+Formula
+In mathematics or science a formula is a rule or statement written in algebraic symbols. The plural of formula can be written in two ways: formulae or formulas - the choice is based on personal preference.
+Formulas use letters instead of words. A simple example of a formula is y = x. Here, if x is, for example, 1, then y = x so y = 1. Possibly the most famous formula is e = m × c 2. Albert Einstein created this. In it, e is energy, m is mass and c is the speed of light. Thus, energy = mass × (multiplied by) the speed of light 2 (squared). The multiplication sign is usually left out, giving e = mc 2.
+The formula e = mc 2 is also an equation. Every equation is a formula, but not every formula is an equation. For instance, the formula x≡y (x "is defined as" y) is not an equation because no "=" sign is used.

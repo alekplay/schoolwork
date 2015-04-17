@@ -1,0 +1,3 @@
+Cube
+A cube is a block with all right angles and whose height, width and depth are all the same.
+A cube is one of the simplest mathematical shapes in space. Something that is shaped like a cube is sometimes referred to as cubic.

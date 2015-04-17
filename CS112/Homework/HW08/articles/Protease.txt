@@ -1,0 +1,8 @@
+Protease
+A protease is a digestive enzyme. It breaks down long chains of proteins into shorter amino acids. Protease can be divided into 6 types :
+serine proteases
+threonine proteases
+cysteine proteases
+aspartate proteases
+metallo proteases
+glutamic acid proteases

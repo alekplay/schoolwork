@@ -1,0 +1,18 @@
+Syllable
+A syllable is a unit of pronunciation uttered without interruption, loosely, a single sound. All words are made from at least one syllable.
+Monosyllables have only one vowel sound; polysyllables have more than one. If a syllable ends with a consonant, it is called a closed syllable. If a syllable ends with a vowel, it is called an open syllable. Patterns of syllables can be shown with C and V (C for 'consonant', V for 'vowel'). Closed syllables are shown as CVC, open syllables CV. Some languages like English have many kinds of closed syllables. Some languages like Japanese have few kinds of closed syllables.
+Notice that the consonant (C) and vowel (V) notation does NOT match the letters of English spelling in a one-to-one relationship. (e.g. 'th' is one sound)
+There are many words in English that have only one syllable.
+Cat (CVC)
+House (CVC)
+The (CV)
+Like (CVC)
+Run (CVC)
+There are many more words that have two or more syllables.
+Basket (2 Bas-ket; CVC-CVC)
+Doctor (2 Doc-tor; CVC-CVC)
+Happy (2 Hap-py; CV-CV)
+Computer (3 Com-pu-ter; CVC-CCV-CVC) [-pu- is pronounced "pyuu' or CCV]
+Merciful (3 Mer-ci-ful; CVC-CV-CVC)
+Pronunciation (5 Pro-nun-ci-a-tion; CCV-CVC-CV-V-CVC)
+Some languages do not use an alphabet with letters. Instead, each sign may stand for a syllable. For example: Japanese can be written using Kana. A writing system based on syllables is called a syllabary.

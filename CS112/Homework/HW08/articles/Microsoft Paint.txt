@@ -1,0 +1,13 @@
+Microsoft Paint
+Microsoft Paint, also called MS Paint or simply Paint is a computer program made by Microsoft. It allows people to create picture files as well as edit picture files saved on their computer. Microsoft Paint is also a program for adding texts to images saved on a computer. There are various tools to help people edit photos, including:
+the paint bucket
+pencil
+spray can
+eraser
+line and curved line tools
+multiple shape tools
+text tool
+cutout tool
+The program has a color palette displayed on the bottom left of the screen, as well as an "Edit Colors..." menu, allowing users to create all the shades they need.
+Using the selection tools (the 2 tools at the top if the tools bar), users can select all or part of an image and then cut, copy, delete and paste it.
+Many digital artists or editors prefer programs like Photoshop, but many on a tighter budget or with less time on their hands use Paint. Because of this, there are many Internet tutorials to help enhance the creative skill of every Microsoft Painter.

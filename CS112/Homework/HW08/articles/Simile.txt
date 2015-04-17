@@ -1,0 +1,9 @@
+Simile
+A simile is a figure of speech which derives from classical rhetoric. It is used to make a direct comparison. Similes may be confused with metaphors, which do the same kind of thing. Similes use comparisons, with the words 'like' or 'as'. Metaphors use indirect comparisons, without the words 'like' or 'as'.
+Similes:
+Like a hungry wolf, he ate the food.
+A dragonfly is like a plane: they both fly and cannot close their wings.
+
+Metaphors:
+He wolfed down the food.
+That girl is a star.

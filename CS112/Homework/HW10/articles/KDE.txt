@@ -1,0 +1,4 @@
+KDE
+KDE (short for K Desktop Environment) is a desktop environment for operating systems based on Linux or UNIX. This replaces the console, which is simply a black screen with text on it. It is known for how good it can look, and it is a very popular piece of software for users of Linux and UNIX.
+KDE runs on top of the X Window System, which runs on top of any UNIX-like operating systems like Linux and Mac OS X, Since KDE 4.0, KDE also runs on Microsoft Windows.
+Besides the desktop environment the KDE project also includes a large amount of software created using the same technologies as the KDE desktop.

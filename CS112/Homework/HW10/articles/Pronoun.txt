@@ -1,0 +1,7 @@
+Pronoun
+A pronoun is traditionally called a part of speech in grammar (but many modern linguists, experts in linguistics, call it a special type of noun) In English, pronouns are words such as me, she, his, them, herself, each other, it, what.
+Pronouns are often used to take the place of a noun, when that noun is understood (has already been named), to avoid repeating it. For example, instead of saying
+Tom has a new dog. Tom has named the dog Max and Tom lets the dog sleep by Tom's bed.
+it is easier to say
+Tom has a new dog. He has named it Max and he lets it sleep by his bed.
+When a pronoun replaces a noun, the noun is called the antecedent. But, there are times when the pronoun has no antecedent. This is because generally, the antecedent (what comes before) refers grammatically to the use of the relative pronoun in particular. For example, in the sentence: The dog that was walking down the street, the relative pronoun is the word that referring back to the antecedent, the word 'dog'. In the sentence The spy who loved me, the relative pronoun is the word 'who' and its antecedent is the word 'spy'.

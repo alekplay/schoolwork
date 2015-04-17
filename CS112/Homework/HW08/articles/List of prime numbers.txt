@@ -1,0 +1,2 @@
+List of prime numbers
+This page contains a list of the first 120 prime numbers. It also contains lists of the first few prime numbers of different kinds.

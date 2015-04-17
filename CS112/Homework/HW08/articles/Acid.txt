@@ -1,0 +1,6 @@
+Acid
+The article about certain properties of databases is at ACID
+Sometimes acid is another name for the drug LSD (Lysergic acid diethylamide)
+
+An acid is a substance that can donate a hydrogen ion (H+) to another substance. Acids have a pH less than 7.0. A chemical can donate a proton if the hydrogen atom is attached to an electronegative atom like oxygen, nitrogen, or chlorine. Some acids are strong and others are weak. The weak acids hold on to some of their protons, while the strong acids let go of all of them. Weak acids generally have a pH value of 4-6 while strong acids have a pH value of 1 to 3.
+A base is an acid's "chemical opposite." A base is a substance that will accept the acid's hydrogen atom.

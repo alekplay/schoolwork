@@ -1,0 +1,20 @@
+List of mathematics topics
+There are a number of topics in mathematics. Some of them include:
+Algebra
+Analysis
+Arithmetic
+Calculus
+Combinatorial game theory
+Cryptography
+Differential equations
+Discrete mathematics
+Geometry
+Graph theory
+Infinity
+Linear algebra
+Number theory
+Numerical analysis
+Order of Operations
+Probability
+Statistics
+Topology

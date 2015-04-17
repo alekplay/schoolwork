@@ -1,0 +1,4 @@
+Vector
+A vector is a mathematical object that has a size, called the magnitude, and a direction.
+For example, a vector would be used to show the distance and direction something moved in. If you ask for directions, and a person says "Walk one kilometer towards North", that's a vector. If he'd say "Walk one kilometer", without showing a direction, it would be a scalar.
+Vectors are usually represented as a line with an arrow at the end.

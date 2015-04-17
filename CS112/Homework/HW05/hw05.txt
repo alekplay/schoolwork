@@ -1,0 +1,171 @@
+Homework 05 - CS112 BU - prof. Snyder
+
+Made by: Aleksander Skjoelsvik - U54904431 // Feb 25th 2014
+
+Part A:
+	
+	1.	+—-—+    +—-—+    +——-+    +——-+    +—-—+
+	head ->	| 3 | -> | -7| -> |13 | -> | 5 | -> | * |
+		+——-+    +—-—+    +—-—+    +——-+    +—-—+
+				    ↓———————-↑        
+		+-——+    +—-—+    +-——+    +—-—+
+	p ->    | 2 | -> | 2 | -> | 5 | -> | * |
+		+—-—+    +—-—+    +—-—+    +—-—+ 
+
+	2. The value of head.next.next is 2
+
+	3. The value of p.next.next.item is 5
+
+	4. Node starting at pos 4 and node starting at pos 12
+
+	5. The value at location 11 (2) would have to be changed from 2 to 14
+
+	6. The value at location 9 would have to change from 10 to 4
+
+	7. The value at 10 would be changed from -7 to 2
+
+	8. 	0  | null |
+		1  |      |
+		——————————-
+		2  | 13   | item
+		3  | 14   | next
+		——————————- 
+		6  | 2    | item
+		7  | 10   | next
+		——————————-
+		8  | 3    | item
+		9  | 10   | next
+		——————————-
+		10 | -7   | item
+		11 | 2    | next
+		——————————-
+		14 | 5    | item
+		15 | 0    | next
+		——————————-
+		18 | 8    | head
+		19 | 6    | p
+		——————————-
+		
+	9. The following would be the starting locations of the “garbage” nodes:
+		4, 12, 16
+
+	10. “2” would be printed out
+
+	11. “7 2” would be printed out
+
+	12. “2 2” would be printed out
+
+	13. “
+		5
+		2
+		7
+	    “ would be printed out
+
+	14. printOne(p(3,5,2,7))
+	      printOne(p(5,2,7))
+		printOne(p(2,7))
+		  printOne(p(7))
+		    printOne(p())
+		    print(“B ”)
+		  print(“A ”)
+		print(“A ”)
+	      print(“A ”)
+	    print(“A ”)
+
+	  Will print “B A A A A”
+
+	15. printTwo(p(3, 5, 2, 7))
+	      printTwo(p(5, 2, 7))
+		printTwo(p(2, 7))
+		    printTwo(p(7))
+		      printTwo(p())
+		      print(“* ”)
+		    print(“7 ”)
+		print(“7 ”)
+	      print(“5 “)
+	    print(“5 ”)
+
+	    Will print “* 7 7 5 5”
+
+	16. printThree(p(3, 5, 2, 7))
+	      printThree(p(5, 2, 7))
+		printThree(p(2, 7))
+		  printThree(p(7))
+		    printThree(p())
+		      return;
+		    printThree(p())
+		      return;
+		  print(“7 ”)
+  		printTree(p(2, 7))
+		  printThree(p(7))
+		    printThree(p())
+		      return;
+		    printThree(p())
+		      return;
+		  print(“7 ”)
+   	      print(“5 ”)
+	      printThree(p(5, 2, 7))
+		printThree(p(2, 7))
+		  printThree(p(7))
+		    printThree(p())
+		      return;
+		    printThree(p())
+		      return;
+		  print(“7 ”)
+		printThree(p(2, 7))
+		  printThree(p(7))
+		    printThree(p())
+		      return;
+		    printThree(p())
+		      return;
+		  print(“7 ”)
+		print(“5 ”)
+	    print(“3 ”)
+
+	  Will print “7 7 7 7 5 5 3”
+
+	17.	int countOdd(Node p) {
+		    if(p == null) {
+			return 0;
+		    } else if (p.item % 2 == 1) {
+			return 1 + countOdd(p.next);
+		    } else {
+			return countOdd(p.next);
+		    }
+		} 
+
+	18.	int weirdCount(Node p) {
+		    if(p == null) {
+			return 0;
+		    } if(p.item % 2 == 0) {
+			return 2 + weirdCount(p.next);
+		    } else if(p.item < 0) {
+			return (-1) + weirdCount(p.next);
+		    } else {
+			return weirdCount(p.next);
+		    }
+		}
+
+	19.	Node addToEnd(int k, Node p) {
+		    if(p == null) {
+			return new Node(k, null);
+		    } else {
+			P.next = addToEnd(k, P.next);
+			return p;
+		    }
+		}
+
+	20.	Node deleteEven(Node p) {
+		    if(p == null) {
+			return null;
+		    } else {
+			if(p.next.item % 2 == 0) {
+			    return deleteEven(P.next.next);
+			} else {
+			    return deleteEven(p.next);
+			}
+		    }
+		}
+
+
+

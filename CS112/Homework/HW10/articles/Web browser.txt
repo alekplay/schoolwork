@@ -1,0 +1,18 @@
+Web browser
+A web browser is a computer program application found on all modern computers. They are also now a common feature of mobile phones or other mobile devices and tablet computers like the iPad or Android tablets.
+Web browsers are used by people to find and look at web sites on the Internet. The first web browser was created in 1990. Many different web browsers are available for free. All web browsers can go to websites but each browser has good things and bad things about it. For example, some browsers focus on data security and keeping computers safe from viruses. Other browsers are made so that web pages appear on screen faster.
+Some popular web browsers available to download:
+
+Camino
+Internet Explorer
+Google Chrome
+Mozilla Firefox
+Opera
+Safari
+Other browsers are:
+Flock
+Maxthon
+Epiphany
+Galeon
+Lynx
+Sleipnir

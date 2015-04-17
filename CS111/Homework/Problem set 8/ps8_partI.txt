@@ -1,0 +1,63 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 8 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a.	i.	Mutator
+	ii.	public void shrink(int number) {
+
+b.	i.	Accessor
+	ii.	public double diagonal() {
+
+c.	i.	You can’t access width by rect.with, you have to use the
+		accessor method getWidth().
+		You can’t edit the X value with rect.x either, you have
+		to use a mutator method.
+	ii.	Rectangle rect = new Rectangle(10, 20, 30, 40);
+   		System.out.println("width = " + rect.getWidth());
+   		rect.setLocation(rect.getX() + rect.getY(), rect.getY());
+   		System.out.println(rect);
+
+--------------------------------------------------------------
+
+2a.	Static shouldn’t be there. The correct header is:
+	public double bar() {
+
+b.	public class Foo {
+    		private int a;
+    		private double b;
+    
+    		public Foo(int a, double b) {
+        		setA(a);
+        		setB(b);
+   		}
+    
+    		public double bar() {
+        		return this.a * this.b;
+    		}
+    
+    		public int getA() {
+        		return this.a;
+    		}
+    
+    		public double getB() {
+      			return this.b;
+    		}
+    
+    		public void setA(int a) {
+        		if(a % 2 == 0) {
+            			this.a = a;
+        		} else {
+            			throw new IllegalArgumentException("A must be even");
+        		}
+    		}
+    
+    		public void setB(double b) {
+        		if(b >= 0) {
+            			this.b = b;
+        		} else {
+            			throw new IllegalArgumentException("B must be greater than or equal to 0");
+        		}
+    		}
+	}

@@ -1,0 +1,8 @@
+Infinity
+Infinity, also written , is the name for a group of ideas about things which never end. The term is from a Latin word meaning "without end". Infinity goes on forever, so sometimes space, numbers, and other things are said to be 'infinite', because they never come to a stop.
+Infinity is really not an ordinary number, but it is sometimes used as one.
+There are two kinds of infinity: potential infinity and actual infinity. Potential infinity is a process that never stops. For example, adding 10 to a number. No matter how many times 10 is added, 10 more can still be added. Actual infinity is a more abstract idea. For example, there are infinitely many numbers as it is impossible to write them all down.
+Infinity has various properties that are not normally found in numbers:
+Infinity added to any number is infinity.
+Infinity times any positive number is infinity.
+Infinity times any negative number is negative infinity.

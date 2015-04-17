@@ -1,0 +1,4 @@
+Verb
+A verb is a kind of word (see part of speech) that usually tells about an action or a state and is the main part of a sentence. Every sentence has a verb. In English, verbs are the only kind of word that changes to show past or present tense.
+Every language in the world has verbs, but they are not always used in the same ways. They also can have different properties in different languages. For example, in some other languages (e.g., Chinese & Indonesian) verbs do not change for past and present tense. This means the definition above only works well for English verbs.
+There are sixteen verbs used in Basic English. They are: be, do, have, come, go, see, seem, give, take, keep, make, put, send, say, let, get.

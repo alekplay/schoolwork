@@ -1,0 +1,4 @@
+Kilogram
+The kilogram or kilogramme is a metric unit of mass. The official kilogram is the mass of one piece of platinum-iridium metal kept in Paris. The piece of metal is known as Prototype Kilogram (IPK). It is now the only metric unit which is defined as an object.
+There are attempts to define the kilogram in other ways. One example specifies a number of atoms of a certain substance (at a certain temperature).
+One kilogram is a little more than 2.2 pounds. One tonne is one thousand kilograms. One litre of water weighs almost exactly one kilogram, at 3.98° centigrade, at sea level. This was the basis of the definition of the gram in 1795.

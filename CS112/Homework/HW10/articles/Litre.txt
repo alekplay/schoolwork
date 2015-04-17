@@ -1,0 +1,13 @@
+Litre
+A litre (liter in the United States) is one of the metric units of volume. It is not an SI unit.
+One litre is the volume of one cubic decimetre, that is a cube of 10 x 10 x 10 centimetre. One litre of water has the mass of exactly one kilogram. This results from the definition given in 1795, where the gram was defined as the weight of one cubic centimeter of melting ice.
+The symbol for litre is L or l.
+For smaller volumes the decilitre is used: 10 dl = one litre.
+For smaller volumes the centilitre is used: 100 cl = one litre.
+For smaller volumes the millilitre is used: 1000 ml = one litre.
+The capital letter "L" is preferred by some people as the small "l" can look like the number one "1".
+1 litre = 0.2200 imperial gallons
+1 litre = 0.2642 U.S. gallons
+1 imperial gallon = 4.5461 litres
+1 U.S. gallon = 3.7854 litres
+1 litre = 1 dm3

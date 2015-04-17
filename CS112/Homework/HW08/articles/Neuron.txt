@@ -1,0 +1,4 @@
+Neuron
+A neuron (also known as a neurone or nerve cell) is a cell that carries electrical impulses. Neurons are the basic units of the nervous system and its most important part is the brain.
+Every neuron is made of a cell body (also called a soma), dendrites and an axon. Dendrites and axons are nerve fibres. There are about 100 billion neurons in the human brain, which comprises roughly 10% of all brain cells. The neurons are supported by glial cells and astrocytes.
+Neurons are connected to one another and tissues. They do not touch and instead form synapses. These gaps can be chemical synapses or electrical synapses and pass the signal from one neuron to the next.

@@ -1,0 +1,2 @@
+Acceleration
+Acceleration is a measure of how fast velocity changes. Acceleration is the change of velocity divided by the change of time. Acceleration is a vector, and therefore includes both a size and a direction.

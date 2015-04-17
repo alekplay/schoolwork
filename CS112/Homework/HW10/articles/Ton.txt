@@ -1,0 +1,5 @@
+Ton
+A ton is a unit of weight or mass. There are three primary varieties of ton:
+The common ton or short ton, defined as 2 000 pounds avoirdupois (907 kg)
+The long ton, defined as 2 240 pounds (1 016 kg)
+The tonne, called a metric ton in the United States, is defined as 1 000 kilograms (2 204 pounds). This unit is also called a "megagram" (1 000 000 g) but "tonne" is more convenient.

@@ -1,0 +1,58 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 6 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a.	5 8
+	[2, 4, 7, 8, 10]
+
+b. 	3 8 8
+	x never changes, so that stays on 3. y get set equal to x, then
+	z get set equal to y. Then the 2nd (3) value of y get changed to 
+	8, which also affects the 2nd (3) value of z
+
+c. 	This method takes in three parameters, one array (x), and two 
+	integers (n and i). 
+	After it’s called, a for loop runs as many times as the size of the
+	gap between array(x)’s length and the value of i. 
+	Each time the loop runs, the value of the array at the current
+	number j (length of array minus 1, decreasing) is decreased by one.
+	Then after the loop is over, the value of the number at i is changed
+	to n.
+
+	mystery(x, 10, 2) gives [5, 4, 10, 3, 2]
+	mystery(x, 20, 4) gives [5, 4, 10, 3, 20]
+	mystery(x, 30, 0) gives [30, 5, 4, 10, 3]
+	when x = [5, 4, 3, 2, 1]
+
+
+--------------------------------------------------------------
+
+2a.	public static void scale(int[] data, int factor) {
+        	for(int i=0; i<data.length; i++) {
+            		data[i] *= factor;
+        	}
+    	}
+
+b.	public static int schoolNumber(String school) {
+        	int schoolNr = 0;
+        	for(int i=0; i<SCHOOL_ABBREVS.length; i++) {
+            		if(SCHOOL_ABBREVS[i].equals(school)) {
+                		schoolNr = i;
+                		break;
+            		} else {
+                		schoolNr = -1;
+            		}
+        	}
+        	return schoolNr;
+    	}
+
+c.	public static boolean hasNegative(int[] data) {
+        	for (int i = 0; i < data.length; i++) {
+            		if (data[i] < 0) {
+                		return true;
+            		}
+        	}
+        	return false;
+    	}

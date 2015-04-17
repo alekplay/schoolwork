@@ -1,0 +1,8 @@
+Volume
+This article is about physical object; for meaning from audio field, see loudness.
+The volume of an object is a measure of the amount of space occupied by that object, not to be confused with mass. The volume of a mountain is much larger than the volume of a rock, for instance.
+The word volume implies a three-dimensional context where, by convention,
+the length is the longest distance between the object's extremities
+the width (or breadth) refers to the size of the object in a direction perpendicular to its length
+the height (or depth) stands for the size of that object in the direction perpendicular to both the length and the width.
+For objects at or near the Earth's surface, height or depth often refers to the dimension of the object along the local vertical. All physical objects occupy a volume, even if some are so thin that they appear to be two-dimensional, like a sheet of paper.

@@ -1,0 +1,14 @@
+Vehicle
+A vehicle is a machine to move people and things.
+A vehicle is not alive. A horse can move people and things but it is not a vehicle.
+Some vehicles move on land. Most land vehicles have wheels. Examples are bicycles, cars, motorcycles, and trains.
+Some vehicles move on or in the water. Examples are boats, ships, and submarines.
+Vehicles that move in the sky are called aircraft. Examples are aeroplanes and balloons.
+Some vehicles get power from human muscles. Examples are bicycles and skateboards.
+Some vehicles get power from engines. Examples are automobiles, ships, and aeroplanes.
+Some vehicles get power from animals. Examples are carts and chariots.
+Some vehicles get power from wind. Examples are sailboats and iceboats.
+Some vehicles have no power. Examples are gliders and balloons.
+
+Ships
+Vans

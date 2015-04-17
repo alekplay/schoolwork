@@ -1,0 +1,102 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 3 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a. 	for (int i=0; i<5; i++) { 
+       		System.out.println("Go Terriers!");
+    	}
+
+b.	for (int i=1; i<=5; i++) { 
+        	System.out.print(i + " ");
+    	}
+
+--------------------------------------------------------------
+
+2a. 	i      	j      	value printed
+    	2      	2      	none (exit the inner loop)
+    	4      	2      	6
+	4	3	7
+	6	2	8
+	6	3	9
+	6	4	10
+	6	5	11
+
+b. 	for (int i=1; i<4; i++) {
+        	System.out.println("** " + i + " **");
+        	for (int j=3; j>=i; j--) { 
+        		System.out.println(i + " " + j);
+        	}
+        }
+
+--------------------------------------------------------------
+
+3a. 	line   	colons  equals
+    	1      	10	1
+    	2	7	3
+    	3	4	5
+    	4	1	7
+
+b.	*	colons = (-3 * line) + 14
+	*	equals = (2 * line) - 1
+
+c. 	for(int line=1; line<=4; line++) {
+            	int colons = (-3 * line) + 13;
+            	for(int i=0; i<colons; i++) {
+                	System.out.print(":");
+            	}
+            
+            	int equals = (2 * line) - 1;
+            	for(int j=0; j<equals; j++) {
+                	System.out.print("=");
+            	}
+            
+            	System.out.print("\n");
+        }
+
+--------------------------------------------------------------
+
+4a. 	x (c + d)
+
+b.	x, i, a, j, b
+
+c. 	x, i, a
+
+d. 	x, i, y
+
+e.	c
+
+f.	c, d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

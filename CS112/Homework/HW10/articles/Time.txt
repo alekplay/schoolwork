@@ -1,0 +1,5 @@
+Time
+We use time to sequence events, to compare their durations and the intervals between them, and to quantify the speed at which objects move and things change.
+To measure time, we can use anything that repeats itself regularly. One example is the dawn of a new day (as Earth rotates on its axis). Two more are the phases of the moon (as it orbits the Earth), and the seasons of the year (as the Earth orbits the Sun). Even in ancient times, people developed calendars to keep track of the number of days in a year. They also developed sundials that used the moving shadows cast by the sun through the day to measure times smaller than a day. Today, highly accurate clocks can measure times less than a billionth of a second. The study of time measurement is horology.
+The SI (Systeme Internationale) unit of time is one second, written as s.
+In Einsteinian physics, time and space can be combined into a single concept. See space-time continuum.

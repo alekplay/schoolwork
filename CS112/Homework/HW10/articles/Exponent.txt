@@ -1,0 +1,5 @@
+Exponent
+An exponent tells you the number of times the base appears as a factor. exponentiation.
+For example: The exponent in  is 3. This can also be written as . The exponent in  is 5. This can also be written as .
+Exponents are used in algebra.
+It is a number or symbol, placed above and to the right of the expression to which it applies, that indicates the number of times the expression is used as a factor. For example, the exponent 3 in  indicates ; the exponent x in  indicates  multiplied by itself x times.

@@ -1,0 +1,8 @@
+Protein
+Proteins are long-chain molecules built from small units known as amino acids. They are joined together with peptide bonds.
+They are biochemical compounds consisting of one or more polypeptides folded into a round or fibrous shape.
+A polypeptide is a single linear polymer chain of amino acids. The sequence of amino acids in a polypeptide comes from the DNA sequence of a gene. The genetic code specifies 20 standard amino acids. Shortly after synthesis, some amino acids are chemically modified. This alters the folding, stability, activity, and function of the protein. Sometimes proteins have non-peptide groups attached, as cofactors.
+Proteins are essential to all cells. Like other biological macromolecules (polysaccharides and nucleic acids), proteins take part in virtually every process in cells:
+Many proteins are enzymes that catalyze biochemical reactions and are vital to metabolism.
+Other proteins have structural or mechanical functions, such as in muscle and in cells. The cytoskeleton is a system of scaffolding that keeps cell shape.
+Other proteins are important in cell signalling, immune responses, and cell division.

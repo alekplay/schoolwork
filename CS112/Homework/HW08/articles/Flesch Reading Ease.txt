@@ -1,0 +1,6 @@
+Flesch Reading Ease
+The Flesch Reading Ease measures textual difficulty, which indicates how easy a text is to read.
+Tools to calculate the Flesch Reading Ease include:
+Microsoft Word's grammar check
+Abiword (open source)
+KWord (open source)

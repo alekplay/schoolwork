@@ -1,0 +1,46 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 4 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a. 	x	y
+	---------
+	4	2
+	4	3
+	6	0
+	4	3
+	6	2
+	4	27
+
+b.	public static double discountPrice(double originalPrice, int percentDiscount) {
+        	double newPrice = originalPrice - (((double)percentDiscount/100)*originalPrice); 
+        	return newPrice;
+    	}
+
+--------------------------------------------------------------
+
+2a. 	i. 	me
+	ii. 	0
+	iii.	7
+	iv.	Method
+	v.	mess
+
+b.	i.	str1 + str2
+	ii.	str1.substring(5, 6)
+	iii.	str2.substring(6, 9)
+	iv.	str2.substring(4, 5).toUpperCase() + str2.substring(10, 12)
+	v.	str2.replace("SS", "PP")
+
+c.	This method takes a string, goes trough every letter in that string and places a "\" in front of it, and then prints 	out the new string. For example, Boston becomes \B\o\s\t\o\n.
+
+--------------------------------------------------------------
+
+3a. 	i. 	Trees, Chestnut, Done
+	ii. 	Trees, Larch, Done
+	iii.	Cheese Shoppe, Cheddar, Gouda, Done
+	iv.	Spam Please!, Done
+	v.	It's a late parrot!, Done
+
+b.	"Swiss" will never be printed, since it requires c == b and b > c, and both can't be true. 
+	

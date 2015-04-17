@@ -1,0 +1,5 @@
+Cytokine
+Cytokines are signalling molecules made by cells. They help to control the immune system and fight disease. They are similar to hormones and, as we learn more about each, distinctions between the two are fading.
+Cytokines carry signals locally between cells, and these signals have an effect on other cells. They are made of proteins, peptides, or glycoproteins. The cytokines are a large family of polypeptide regulators that are produced throughout the body by many groups of cells.
+Some well-known cytokines include interferon, prostaglandin and interleukins. Cytokines can be detected using the ELISA and ELISPOT techniques.
+Cytokines work by signal transduction. Each cytokine has a matching cell-surface receptor. Then cascades of signals inside the cell changes cell functions. This may include the regulation of several genes, the production of other cytokines, or an increase in surface receptors for other molecules.

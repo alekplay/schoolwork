@@ -1,0 +1,12 @@
+Binary numeral system
+The binary numeral system is a way to write numbers using only two digits: 0 and 1. These are used in computers as a series of "off" and "on" switches. In binary, each digit's place value is twice as much as that of the next digit to the right (since each digit holds two values). In decimal - the system that humans normally use - each digit holds ten values, and the place value increases by a power of ten (one's, ten's, hundred's place, etc.). The place value of the rightmost digit in either case is 1.
+Example: 10110011
+The place value of the last 1 (rightmost position) is 1.
+The place value of the 1 before that is 2.
+The place value of the 0 before that is 4.
+The place value of the 0 before that is 8.
+The place value of the 1 before that is 16.
+The place value of the 1 before that is 32.
+The place value of the 0 before that is 64.
+The place value of the 1 before that is 128.
+Adding together all the place values that have 1s, it would be 1+2+16+32+128 = 179. For convenience, binary digits (bits, for short) are usually grouped together in two groups of 4 bits. This is 8 bits, or a byte, and is written using the hexadecimal numeral system. This would be shown as 1011 0011 = B3.

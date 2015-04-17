@@ -1,0 +1,2 @@
+Debian
+Debian is a free operating system. It is a distribution of an operating system known as the GNU operating system, which can be used with various kernels, including Linux, kFreeBSD, and Hurd. In combination with these kernels, the operating system can be referred to as Debian GNU/Linux, Debian GNU/kFreeBSD, and Debian GNU/Hurd, respectively. Debian GNU/Linux is one of the most complete and popular GNU/Linux distributions, on which many others, like Ubuntu, are based.

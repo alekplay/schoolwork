@@ -1,0 +1,64 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 7 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a.	The method prints out the same number of letters as the parameter, 
+	where each letter is the character value of that number (increasing, 
+	from 0 up to number you entered as parameter).
+	For example, printSomething(4) gives a, b, c, d.
+
+b.	The base case is the if-statement who returns, and therefore 
+	terminates the loop (avoid becoming an infinite recursion).
+
+c.	There are no parameters that would cause infinite recursion.
+	No matter what number you put in, it will count down to 0, and at
+	0 it will return and therefore terminate the loop. 0 and negative
+	values are caught by the if-statement, and all other values
+	(non integers) will produce an error. 
+
+d.	printSomething(3)
+		printSomething(3 - 1)
+			printSomething(2 - 1)
+				printSomething(1 - 1)
+					return
+				println((char)(‘a’ + 1 - 1))
+			println((char)(‘a’ + 2 - 1))
+		println((char)(‘a’ + 3 - 1))
+
+e. 	public static void printSomething(int n) {
+        	if (n <= 0) {
+            	return;
+        	}
+        
+        	System.out.println((char)('a' + n - 1));
+        	printSomething(n - 1);
+    	}
+
+--------------------------------------------------------------
+
+2a.	calls mystery(20, 6)
+		mystery(20, 6) calls mystery(14, 6)
+			mystery(14, 6) calls mystery(8, 6)
+				mystery(8, 6) calls mystery(2, 6)
+					mystery(2, 6) calls mystery(-2, 6) 
+						mystery(-2, 6) returns 1
+					mystery(2, 6) returns 3
+				mystery(8, 6) returns 5
+			mystery(14, 6) returns 7
+		mystery(20, 6) returns 9
+
+b.	The value that’s returned is 9.
+
+c.	5 method frames are on the stack when the base case is reached.	
+
+d.	mystery(10, -2) will produce infinite recursion, as ‘a’ (10) will 
+	increase when ‘b’ (-2) is added (a - b). Therefore a will increase
+	indefinitely and the base case (a < 0) will never be reached.
+
+e. 	All cases where (b < 0) will produce infinite recursion, as ‘a’ will 
+	increase indefinitely, unless (a < 0) because then the base case will
+	be met immediately. 
+
+--------------------------------------------------------------

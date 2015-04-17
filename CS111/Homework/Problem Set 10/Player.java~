@@ -1,0 +1,84 @@
+/*
+ * Player.java
+ * Aleksander Skjoelsvik - alsk@bu.edu
+ */
+
+public class Player {
+    private String name;
+    private Card[] cards;
+    private int numCards;
+    
+    public Player(String name) {
+        this.name = name;
+        this.cards = new Card[BUno.MAX_CARDS];
+        this.numCards = 0;
+    }
+    
+    public String getName() {
+        return this.name;
+    }
+    
+    public int getNumCards() {
+        return numCards;
+    }
+    
+    public String toString() {
+        return getName();
+    }
+    
+    public static addCardToHand(Card card) {
+        if(getNumCards() > 10) {
+            throw new IllegalStateException("Cannot hold more than 10 cards");
+        }
+        
+        this.cards += card;
+        this.numCards++;
+    }
+    
+    public static Card getCardFromHand(int index) {
+        if(index > getNumCards - 1) {
+            throw new IndexOutOfBoundsException("The player don't hold that many cards");
+        }
+        
+        return cards[index];
+    }
+    
+    public void printHand() {
+        System.out.println(getName() + "'s hand:");
+        for(int i=0; i<getNumCards; i++) {
+            System.out.println(i + ": " + Card.toString);
+        }
+    }
+    
+    public int getHandValue() {
+        int value = 0;
+        for(int i = 0; i < getNumCards(); i++) {
+            value += cards[i].getValue();
+        }
+        
+        if(getNumCards >= BUno.MAX_CARDS) {
+            value += BUno.MAX_CARDS_PENALTY;
+        }
+        
+        return value;
+    }
+    
+    public Card removeCardFromHand(int index) {
+        Card removed = cards[index];
+        
+        for(int i = index; i < getNumCards(); i++) {
+            cards[i] = cards[i++];
+        }
+        
+        this.numCards--;
+        
+        return removed;
+    }
+    
+    public int getPlay(Scanner console, Card onTop) {
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("What do you want to do next? Enter -1 to draw a card, or the index of the card in your hand you want to get rid of");
+        int nextMove = console.nextInt;
+    }
+}

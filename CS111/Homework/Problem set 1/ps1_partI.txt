@@ -1,0 +1,68 @@
+Problem set 1 - Part I - Aleksander Skjoelsvik
+
+1:
+Task a:
+i. The following expressions produce an error message:
+	'xyz'
+	'\'
+	'//'
+
+ii. The error type is "lexical"
+
+Task b:
+i. I get the following numbers:
+	'd' = 100
+	'e' = 101
+	'f' = 102
+	'D' = 68
+	'E' = 69
+	'F' = 70
+	'0' = 48
+	'1' = 49
+	'2' = 50
+
+ii. The letters following each other makes sense, as their number is one bigger than the one before. When 'd' is 100, it makes sense that 'e' is 101. But I can't find any relationship between for example 'd' and 'D'.
+
+iii. I get the following characters:
+	97 = 'a'
+	80 = 'P'
+	63 = '?'
+	('A' + 1) = 'B'
+	('A' + 2) = 'C'
+	('A' + 3) = 'D'
+
+iv. These will produce the letter 'G'
+	(char)('A' + 6)
+	(char)('D' + 3)
+	(char)('F' + 1)
+
+2: 
+Task a:
+public class MyProgram{
+    public static void main(String[] args) {
+        System.out.println("This code is problematic!");
+        System.out.println("Can you get it to compile?");
+    }
+} 
+
+Task b:
+The following are not valid identifiers:
+	class  - (cannot be the same as a keyword)
+	total value - (cannot contain a space)
+	7dwarfs	- (cannot start with a number)
+
+Task c:
+The following series of println statements produce the lines indicated in the assignment:
+	System.out.println("///\\\\\\ \\\\// /'\\");
+        System.out.println("\"Hi\", said Perry.  \"What's new?\"");
+        System.out.println("\"Not much\", said Libby. \"What's new with you?\"");
+
+3:
+The program will produce this output:
+	hello
+	hello
+	bye
+	hello
+	see ya
+	hello
+	bye

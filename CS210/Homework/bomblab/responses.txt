@@ -1,0 +1,9 @@
+phase_1: I am just a renegade hockey mom.
+phase_2: 1 2 4 8 16 32
+phase_3: 6 275
+phase_4: 10 37
+phase_5: 5 115
+phase_6: 5 3 1 4 2 6
+
+secret_phase: DrEvil (at end of phase_4 input)
+phase_7: 35

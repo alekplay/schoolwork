@@ -1,0 +1,7 @@
+Lymphocyte
+Lymphocytes are a type of white blood cell (or leukocyte). They help an organism to fight infections. They occur in the immune system of all vertebrates. All lymphoctes have a large, blob-like nucleus.
+Lymphocytes can be divided into three main types:
+large granular lymphocytes: these are part of the innate immune system, and are natural killer cells.
+small lymphocytes: these lymphocytes are the main agents of the aquired immune system. The two main types are:
+T cells and
+B cells.

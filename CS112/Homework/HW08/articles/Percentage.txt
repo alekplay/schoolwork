@@ -1,0 +1,5 @@
+Percentage
+Percent means out of one hundred. It is often shown with the symbol "%". It is used even if there are not a hundred items. The number is then scaled so it can be compared to one hundred.
+Percentages are one way of writing numbers; you can also write percentages as fractions or decimals.
+For example, I have a bowl of fruit with three apples and one orange. The percentage of apples is 3 out of 4 = 3/4 = 75/100 = 75%.
+There are ways to convert fractions to percentages or decimals to percentages.

@@ -1,0 +1,189 @@
+/*
+ * BUno.java
+ * 
+ * Computer Science 111, Boston University
+ * 
+ * The main class for a program that plays a card game called BUno.
+ * It also serves as a blueprint class for a BUno object, which maintains
+ * the state of the game.
+ *
+ * modified by: <fuck>, <this>
+ */
+
+import java.util.*;
+
+public class BUno {
+    public static final int NUM_PLAYERS = 2;
+    public static final int NUM_INIT_CARDS = 5;    // cards per player at start of game
+    public static final int MAX_CARDS = 10;        // the game ends if a player ends up with this many cards
+    public static final int MAX_CARDS_PENALTY = 25;
+    
+    /* fields of a BUno object */
+    private Scanner console;    // used to read from the console
+    private Deck deck;          // the deck of cards used for the game
+    private Player[] players;   // the players of the game
+    private Card topDiscard;    // card at the top of the discard pile
+    
+    /*
+     * constructor - takes the Scanner to be used to read from the
+     * console, a randomSeed for the Deck's random-number generator,
+     * and the name of the player.
+     */
+    public BUno(Scanner console, int randomSeed, String playerName) {
+        this.console = console;
+
+        // Create and shuffle the deck.
+        deck = new Deck(randomSeed);
+        deck.shuffle();
+        
+        // Create the players.
+        players = new Player[NUM_PLAYERS];
+        players[0] = new Player(playerName);
+        players[1] = new Player("the computer");
+        
+        // Deal the cards.
+        dealHands();
+        topDiscard = deck.drawCard();   
+    }
+    
+    /*
+     * dealHands - deals the initial hands of the players.
+     * Each player gets NUM_INIT_CARDS cards.
+     */
+    public void dealHands() {
+        for (int i = 0; i < NUM_INIT_CARDS; i++) {
+            for (int j = 0; j < NUM_PLAYERS; j++) {
+                players[j].addCardToHand(deck.drawCard());
+            }
+        }
+    }
+    
+    /*
+     * play - plays an entire game of BUno
+     */
+    public void play() {
+        printGameState();
+        
+        while (true) {
+            // Each player makes one play.
+            for (int i = 0; i < players.length; i++) {
+                executeOnePlay(players[i]);
+            }
+            
+            printGameState();
+            if (gameOver()) {
+                return;
+            }
+        }
+    }
+    
+    /*
+     * printGameState - prints the players' hands and the card at the
+     * top of the discard pile
+     */
+    public void printGameState() {
+        System.out.println();
+        for (int i = 0; i < players.length; i++) {
+            players[i].printHand();
+        }
+        System.out.println("discard pile: ");
+        System.out.println("  " + topDiscard);
+        //System.out.println();
+    }
+    
+    /*
+     * executeOnePlay - carries out a single play by the specified player
+     */
+    public void executeOnePlay(Player player) {
+        // Keep looping until a valid play is obtained.
+        // We break out of the loop using a return statement.
+        while (true) {
+            int cardNum = player.getPlay(console, topDiscard);
+            
+            if (cardNum == -1) {
+                System.out.println(player + " draws a card.");
+                player.addCardToHand(deck.drawCard());
+                return;
+            } else {
+                Card cardToPlay = player.getCardFromHand(cardNum);
+                
+                if (cardToPlay.matches(topDiscard)) {
+                    System.out.println(player + " discards " + cardToPlay + ".");
+                    player.removeCardFromHand(cardNum);
+    
+                    // The card played is now at the top of the discard pile.
+                    topDiscard = cardToPlay;
+                    return;
+                } else {
+                    System.out.println("invalid play -- " + cardToPlay + " doesn't match top of discard pile");
+                }
+            }
+        }
+    }
+    
+    /*
+     * gameOver - returns true if the game is over -- either because
+     * a player has no cards or because a player has the maximum
+     * number of cards -- and false otherwise.
+     */
+    public boolean gameOver() {  
+        for (int i = 0; i < players.length; i++) {
+            if (players[i].getNumCards() == 0
+              || players[i].getNumCards() == MAX_CARDS) {
+                    return true;
+            }
+        }
+        
+        return false;
+    }
+    
+    /*
+     * reportResults - determines and prints the results of the game.
+     */
+    public void reportResults() {
+        int totalValue = 0;
+     
+        int winnerIndex = 0;
+        int winnerValue = players[0].getHandValue();
+        totalValue += winnerValue;
+        boolean isTie = false;
+        
+        for (int i = 1; i < players.length; i++) {
+            int playerValue = players[i].getHandValue();
+            totalValue += playerValue;
+            
+            if (playerValue < winnerValue) {
+                winnerValue = playerValue;
+                winnerIndex = i;
+                isTie = false;
+            } else if (playerValue == winnerValue) {
+                isTie = true;
+            }
+        }
+        
+        if (isTie) {
+            System.out.println("The game is a tie, so no one earns any points.");
+        } else {
+            System.out.print("The winner is " + players[winnerIndex]);
+            System.out.println(", who earns " + (totalValue - winnerValue) + " points.");
+        }
+    }
+    
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        
+        int seed = -1;
+        if (args.length > 0) {
+            seed = Integer.parseInt(args[0]);
+        }
+        
+        System.out.println("Welcome to the game of BUno!");
+        //System.out.println();
+        System.out.print("What's your first name? ");
+        String name = console.next();
+               
+        BUno game = new BUno(console, seed, name);
+        game.play();
+        game.reportResults();
+    }
+}

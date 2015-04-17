@@ -1,0 +1,26 @@
+(p and q) and r, s and t 		|- q and s
+		---
+Proof: 	1. (p and q) and r		Premise
+		2. s and t				Premise
+		---
+		3. p and q 				(eliminating r)
+		4. q					(eliminating p)
+		
+		5. s					(eliminating t)
+		---
+		6. (q and s) are both true, so the problem is true
+		
+
+p, (p implies q), p implies (q implies r) 		|- r
+		---
+Proof:	1. p implies (q implies r)				Premise
+		2. p implies q							Premise
+		3. p 									Premise
+		---
+		4. q implies r							(eliminating p from 1 because of 3)
+		
+		5. q									(eliminating p from 2 because of 3)
+		
+		6. r									(eliminating q from 4 because of 5)
+		---
+		7. r is true, so the problem is true

@@ -1,0 +1,4 @@
+Pi
+See also: Pie
+Pi or  is a mathematical constant, one of the first ever discovered. It is the ratio of the distance around a circle to the circle's diameter. This produces a number, and that number is always the same. However, the number is rather strange. The number starts 3.14159265... and continues without end. Such numbers are called irrational.
+The diameter is the longest line which can be fitted inside a circle. It passes through the center of the circle. The distance around a circle is known as the circumference. Even though the diameter and circumference are different for different circles, the number pi remains constant: its value never changes. This is because the relationship between the circumference and diameter is always the same.

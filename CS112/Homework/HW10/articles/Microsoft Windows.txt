@@ -1,0 +1,11 @@
+Microsoft Windows
+Microsoft Windows is a popular operating system software for computers. Windows is made by the Microsoft company. Almost 90% of desktop and laptop computers have Windows installed (included). The newest version of Windows is Windows 8.1. Most newly bought personal computers have Windows 8 or Windows 7 installed. Some cheaper computers have older versions of Windows included.
+In November 20, 1985 "Microsoft Windows version 1.0" went on sale. Windows 8.1 went on sale in August, 2013.
+Windows makes it easier to run programs (applications) than DOS did. It also helps people keep their files safe and in order.
+Some programs are included with Windows. Some examples:
+Wordpad - to write simple documents
+Photo viewer - to look at pictures
+Paint - to make simple drawings
+Internet Explorer Web browser - to use the Internet to look at web pages and download files.
+Windows Media Player - to listen to music and watch videos.
+Many new applications are available that are not included with Windows. Some popular applications are games, word processors (to write letters) or add-on programs like Adobe Flash Player (to watch video clips and play games on websites). Adding new applications to Windows is called "installing". Applications can be bought on a CD or DVD. Applications can also be downloaded from the Internet, sometimes for free.

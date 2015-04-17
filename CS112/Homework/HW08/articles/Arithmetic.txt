@@ -1,0 +1,5 @@
+Arithmetic
+Arithmetic is a name for working with numbers. It is a part of mathematics. The four basic arithmetic operations are addition, subtraction, multiplication, and division. These are the first two natural hyperoperations and their inverses.
+Harder arithmetic includes working with signed numbers, fractions, and decimals, and taking powers and roots.
+Most people learn arithmetic in primary school, but some people do not learn arithmetic and others forget the arithmetic they learned. Many jobs require a knowledge of arithmetic, and many employers complain that it is hard to find people who know enough arithmetic. A few of the many jobs that require arithmetic include carpenters, plumbers, auto mechanics, accountants, architects, doctors, and nurses. Arithmetic is needed in all areas of mathematics, science, and engineering.
+A calculator can be used to do arithmetic.

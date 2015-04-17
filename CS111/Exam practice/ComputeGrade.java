@@ -1,0 +1,9 @@
+public class ComputeGrade {
+    public static void main(String[] args) {
+        int pointsEarned = 13;
+        int possiblePoints = 15;
+        
+        double grade = (double)pointsEarned / possiblePoints * 100;
+        System.out.println("The grade is: " + grade);
+    }
+}

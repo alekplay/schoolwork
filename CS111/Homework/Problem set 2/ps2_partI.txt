@@ -1,0 +1,63 @@
+Problem set 2 - Part I - Aleksander Skjoelsvik - ALSK
+
+1. 
+	i. 	5
+		5.25
+		They are different because in the first you add to numbers of type "int" which means they don't contain any decimals. The second one does contain decimals however (because of type "double") and it's therefore more accurate.
+
+	ii.	25
+		"xy"
+		They are different because in the first you add together the value of the variables, but in the second one you add together the numbers as string values.
+
+	iii.	14
+		12
+		In the first one you convert (n / y * y) to int after making the calculations. In the second one you take the int value of n, divide by y and times y.
+
+	iv.	"12 CS "
+		" CS 111"
+		In the first one you add the numbers as numbers, because the string hasn't been detected yet. In the second one, the string value is first. Therefore java interprets the numbers as "items" and puts them after each other as in a string instead of adding them together as in math.
+
+2.
+
+	i. 	a = 5
+
+	ii. 	b = 5.0
+
+	iii. 	The declaration is not valid because c is of type int and t is of type double.
+		This will work instead: 
+			double c = t;
+		c = 7.0
+
+	iv. 	d = 7.0
+
+3. 	
+	
+	i.	num = 10 * val;
+
+	ii. 	val = val * 3;
+
+	iii. 	val = num / 100;
+
+	iv. 	val = (num / 100) % 10;
+
+	v.	num = 10;
+		val = 3;
+		num = 5;
+		val = 8;
+		num = 1;
+
+4.
+
+	i. 	1010 =
+		(2^1) + (2^3) =
+		10;
+		101101 =
+		(2^0) + (2^2) + (2^3) + (2^5) =
+		45;
+
+	ii. 	35 =
+		(2^5) + (2^1) + (2^0) =
+		100011;
+		71 =
+		(2^6) + (2^2) + (2^1) + (2^0) =
+		1000111;

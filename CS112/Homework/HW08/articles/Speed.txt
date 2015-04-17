@@ -1,0 +1,2 @@
+Speed
+Speed is the distance that an object moves in a certain amount of time. Speed is a measure of how fast something is moving. The average speed of an object in a certain time is the distance the object traveled divided by the time. Speed is a scalar.

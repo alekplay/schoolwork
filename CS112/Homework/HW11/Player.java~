@@ -1,0 +1,257 @@
+/* Homework 11 - CS112 - Spring 2014 - Prof. Snyder - BU
+ * Player Class
+ * Made by: Aleksander Skjoelsvik
+ */
+
+public class Player {
+    
+    /*public Move chooseMove(Graph G) {
+     int max = -100000;
+     Move best = null;
+     for(int i = 0; i < G.N; i++) {
+     for(int j = 0; j < G.N; j++) {
+     System.out.print("j: " + j + " I:" +i);
+     int val = minMax(G, 1, max, 100000);
+     System.out.println(" val: " + val);
+     if(val > max) {
+     best = new Move(i, j);
+     max = val;
+     }
+     }
+     }
+     //System.out.println("best: " + best);
+     //System.out.println(minMax(G, 1, -100000, 100000));
+     return best;
+     }*/
+    
+    /*public Move chooseMove(Graph G) {
+     int max = -100000;
+     Move best = null;
+     for(int i = 0; i < G.N; i++) {
+     for(int j = 0; j < G.N; j++) {
+     if((!G.isEdge(j,i)) && (i != j)) {
+     G.addEdge(j,i,1);
+     int val = minMax(G, 1, -100000, 100000);
+     
+     if(val > max) {
+     best = new Move(i, j);
+     max = val;
+     }
+     G.removeEdge(j,i);
+     }
+     }
+     }
+     return best;
+     }*/
+    
+    public Move chooseMove(Graph g) { // BASIC SETUP FROM THE LECTURE SLIDE
+        int max = -100000;
+        Move best = null;
+        Move kill = null;
+        for(int i = 0; i < g.N; i++) { // GO THROUGH EACH POSSIBLE MOVE
+            for(int j = 0; j < g.N; j++) { //--""--
+                if((!g.isEdge(i, j)) && (i != j)) { // IF THERE ISNT AN EDGE HERE NOR DOES IT CONNECT TO ITSELF
+                    kill = new Move(i, j);
+                    g.addEdge(j, i, 1); //ADD THAT EDGE
+                    if(!g.isCycleOfLength(3, 1)) { //CHECK IF IT MADE A CYCLE, WE DONT WANT THIS
+                        int val = minMax(g, 1, -100000, 100000); //FIND THE BEST POSSIBLE SOLUTION IF WE MADE THIS MOVE.
+                        System.out.println("val: " + val);
+                        if(val >= max) { //IF THIS VALUE IS BETTER THAN WHAT WE HAVE FROM BEFORE
+                            best = new Move(i, j); // STORE THAT MOVE IN A VARIABLE
+                            max = val; // UPDATE THE MAX
+                        }
+                    }
+                    g.removeEdge(i, j); // REMOVE THE EDGE AFTER WE HAVE TESTED IT
+                }
+            }
+        }
+        
+        if(best == null) {
+            best = kill;
+        }
+        return best; // RETURN THE BEST MOVE
+    }
+    
+    private int eval(Graph G) {
+        if(G.isCycleOfLength(3,1)) { // IF IT IS A CYCLE, IT MEANS SOMEONE WON
+            return 100000;
+        } else if (G.isCycleOfLength(3, -1)) {
+            return -100000;
+        }
+        
+        int a = 0;
+        int b = 0;
+        
+        for(int i = 0; i < G.N; i++) { // GO THROUGH EACH OF THE CORNERS
+            int first = G.degree(i, 1); // GET THE AMOUNT OF EDGES OF A SPECIFIC COLOR CONNECTED TO THAT EDGE
+            int second = G.degree(i, -1);
+            
+            if(first > 1) { // IF IT IS GREATER THAN ONE, ADD IT TO A VARIABLE
+                a += first;
+            }
+            if(second > 1) {
+                b += second;
+            }
+        }
+        //System.out.println("b - a: " + (b-a));
+        return b - a; // RETURN THE DIFFERENCE
+    }
+    
+    private int minMax(Graph g, int depth, int alpha, int beta) { // STANDARD FOLLOWS LECTURE SLIDES
+        if(depth >= 4) { // IF THE DEPTH IS 4, STOP AND EVALUATE THE BOARD
+            int eval = eval(g);
+            return eval(g);
+        } else if(depth % 2 == 0) { // WERE AT A MAX "NODE"
+            int val = -100000; // THIS IS THE WORST VALUE WE CAN GET, WE NEED SOMETHING BETTER
+            for(int i = 0; i < g.N; i++) { // GO THROUGH EACH OF THE POSSIBLE MOVES WE CAN MAKE FROM HERE
+                for(int j = 0; j < g.N; j++) {
+                    if((!g.isEdge(i, j)) && (i != j)) { // IF IT DOESNT ALREADY EXIST AND DOESNT CONNECT TO ITSELF
+                        alpha = Math.max(alpha, val); // GET THE MAXIMUM VALUE OF THE VALUE AND THE ALPHA
+                        if(beta < alpha) { // IF BETA IS SMALLER THAN ALPHA, NO NEED TO CONTINUE TRAVERSING THE "TREE"
+                            break;
+                        }
+                        
+                        g.addEdge(i, j, 1); // ADD THE EDGE
+                        if(!g.isCycleOfLength(3, 1)) { // IF IT DOESNT MAKE A CYCLE (WE DONT WANT THIS)
+                            val = Math.max(val, minMax(g, depth+1, alpha, beta)); // GET THE VALUE THE BOARD WOULD EVALUATE TO IF WE CHOSE THIS MOVE AND COMPARE IT TO THE CURRENT VAL (MAX)
+                        }
+                        g.removeEdge(i, j); // REMOVE THE EDGE
+                    }
+                }
+            }
+            return val; // RETURN THE BEST VALUE OF THE BOARD IF WE GO FOR THE EDGE WE PICKED IN CHOOSEMOVE
+        } else {
+            int val = 100000;
+            for(int i = 0; i<(g.N); i++) {
+                for(int j = 0; j<g.N; j++) {
+                    if((!g.isEdge(i, j) && (i != j))) {
+                        beta = Math.min(beta, val);
+                        if(beta < alpha) {
+                            break;
+                        }
+                        
+                        g.addEdge(i, j, -1);
+                        if(!g.isCycleOfLength(3, -1)) {
+                            val = Math.min(val, minMax(g, depth+1, alpha, beta));
+                        }
+                        g.removeEdge(i, j);
+                    }
+                }
+            }
+            //System.out.println("val: " + val);
+            return val;
+        }
+    }
+    
+    /*private int minMax(Graph g, int depth, int alpha, int beta) {
+     if(depth == 6) {
+     return eval(g);
+     } else if(depth % 2 == 0) {
+     System.out.println("max");
+     int val = -100000;
+     for(int i = 0; i < g.N; i++) {
+     for(int j = 0; j < g.N; j++) {
+     if((!g.isEdge(i, j)) && (i !=j)) {
+     alpha = Math.max(alpha, val);
+     if(beta < alpha) {
+     break;
+     }
+     g.addEdge(i, j, 1);
+     val = Math.max(val, minMax(g, depth+1, alpha, beta));
+     g.removeEdge(i, j);
+     }
+     }
+     }
+     return val;
+     } else {
+     System.out.println("min");
+     int val = 100000;
+     for(int i = 0; i < g.N; i++) {
+     for(int j = 0; j < g.N; j++) {
+     if((!g.isEdge(i, j)) && (i !=j)) {
+     alpha = Math.min(beta, val);
+     if(beta < alpha) {
+     break;
+     }
+     g.addEdge(i, j, -1);
+     val = Math.min(val, minMax(g, depth+1, alpha, beta));
+     g.removeEdge(i, j);
+     }
+     }
+     }
+     return val;
+     }
+     }*/
+    
+    /*private int minMax(Graph g, int depth, int alpha, int beta) {
+     if(depth == 6) {
+     return eval(g);
+     } else if (depth% 2 == 0) {
+     int val = -100000;
+     for(int i = 0; i < g.N; i++) {
+     if((!g.isEdge(spot,i)) && (spot != i)) {
+     alpha = Math.max(alpha, val);
+     if(beta < alpha) {
+     break;
+     }
+     g.addEdge(spot, i, 1);
+     val = Math.max(val, minMax(g, spot, depth+1, alpha, beta));
+     g.removeEdge(spot, i);
+     }
+     }
+     return val;
+     } else {
+     int val = 100000;
+     for(int i = 0; i < g.N; i++) {
+     if((!g.isEdge(spot, i)) && (spot != i)) {
+     beta = Math.min(beta, val);
+     if(beta < alpha) {
+     break;
+     }
+     g.addEdge(spot, i, -1);
+     val = Math.min(val, minMax(g, spot, depth+1, alpha, beta));
+     g.removeEdge(spot, i);
+     }
+     }
+     return val;
+     }
+     }*/
+    
+    /*private int minMax(Graph g, int depth, int alpha, int beta) {
+     if(depth == 6) {
+     return eval(g);
+     } else if(depth%2 == 0) {
+     int val = -100000;
+     for(int i = 0; i < g.N; i++) {
+     for(int j = 0; j < g.N; j++) {
+     if((!g.isEdge(i, j)) && (i != j)) {
+     g.addEdge(i, j, 1);
+     alpha = Math.max(alpha, val);
+     if(beta < alpha) {
+     break;
+     }
+     val = Math.max(val, minMax(g, depth+1, alpha, beta));
+     g.removeEdge(i, j);
+     }
+     }
+     }
+     return val;
+     } else {
+     int val = 100000;
+     for(int i = 0; i < g.N; i++) {
+     for(int j = 0; j < g.N; j++) {
+     if((!g.isEdge(i, j)) && (i != j)) {
+     g.addEdge(i, j, -1);
+     beta = Math.min(beta, val);
+     if(beta < alpha) {
+     break;
+     }
+     val = Math.min(val, minMax(g, depth+1, alpha, beta));
+     g.removeEdge(i, j);
+     }
+     }
+     }
+     return val;
+     }
+     }*/
+}

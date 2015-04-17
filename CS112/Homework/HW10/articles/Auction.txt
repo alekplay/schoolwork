@@ -1,0 +1,14 @@
+Auction
+An auction is a place where people can buy or sell things. People say how much they will pay for something and the person who is willing to pay the most gets the item.
+The amount people will pay is called a bid. The person in charge of the auction is the auctioneer. He or she usually has a hammer, which they will knock when a bid is accepted.
+Some auctions only let you place one bid. Some let you change your bid if someone else bids higher. There is also another kind called a Dutch auction. In a Dutch auction, the auctioneer starts off with a price that is much too high and then makes it lower until somebody makes a bid. That person will then buy the item.
+Recently, people have also started to do auctions online. The most popular online auction place is EBay.
+A common prank is to fake bid, where a person bids an amount and they do not actually pay it. This usually happens when people bid simply to force others to bid higher, forcing them to lose more money in the process. Occasionally, the fake bidder is actually the highest bidder at which point they will promptly leave. Although generally frowned upon, fake biding is not thought to be illegall in many countries; however, legal action may be pursued against the fake bidder.
+Advantages of online auctions:
+No time constraints- convenience increment, bids can be placed at any time (24/7).
+No geographical constraints- Sellers and bidders can participate from any part of the world so long as they have internet access. This reduces the costs of attending an auction.
+Intensity of social interaction- The social interaction involved in bidding is very similar to gambling. Some bid primarily to play the game rather than buy the products or services.
+Large number of bidders- due to the relatively low price, the broad scope of products and services available, the ease of access and the social benefits.
+Large number of sellers- due to the large number of bidders, the relatively low prices, reduced selling costs and ease of access.
+Disadvantages/Criticisms of online auctions:
+Auction sites, like garage sales, flea markets, classified ads and other independent sales venues, sometimes draw criminals wishing to sell stolen products.

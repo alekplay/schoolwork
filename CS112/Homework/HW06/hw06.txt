@@ -1,0 +1,56 @@
+Homework 06 - CS112 BU - prof. Snyder
+
+Made by: Aleksander Skjoelsvik - U54904431 // Mar 1st 2014
+
+Part A:
+	
+	1.	a. 	Size is 9
+		b.	Depth of node D is 2
+		c.	Height is 3
+		d.	Length from  B to E is 2
+		e.	A, C, E, H are all leaf nodes
+
+	2.	a.	A
+			B
+			C
+			D
+			E
+			F
+			G
+			H
+			I
+			-
+		b.	I
+			H
+			G
+			F
+			E
+			D
+			C
+			B
+			A
+
+	3.	a.	F, B, D, C
+		b.	4
+		c.	3
+		d.	The worst case is 9, searching for H
+		e.	Average is 5
+
+	4.	a.	A, BA, E, FB, H, K
+		b.	A, E, H
+		c.	A, C, I
+
+	5.	*DIDN’T HAVE TO DO IT*
+
+	6.	a.	ADCB
+			DCBA
+			ADBC
+			DACB
+			DBCA
+			————
+		b.	DBFACEG
+			DBFEGAC
+			DBFCAGE
+			DFBCAGE
+			DFBEGAC
+			DFBCAEF

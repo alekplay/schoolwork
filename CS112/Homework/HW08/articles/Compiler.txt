@@ -1,0 +1,3 @@
+Compiler
+A compiler is a program that takes source code and translates it into a more basic language. These simpler languages are either assembly language or machine code. The action of translating the high-level programming language code is called compiling. Code that has been simplified is called compiled code.
+For many programmers, using a compiler is easier than writing the machine code themselves because there are many different machine codes (it can take a long time to write for each of the machine codes). For example, the GNU C Compiler compiles C into machine code.

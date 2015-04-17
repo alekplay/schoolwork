@@ -1,0 +1,4 @@
+International System of Units
+The International System of Units is the standard modern form of the metric system. The name of this system can be shortened or abbreviated to SI, from the French name Système International d'unités.
+The International System of Units is a system of measurement based on 7 base units: the metre (length), kilogram (mass), second (time), ampere (electric current), Kelvin (temperature), mole (quantity), and candela (brightness). These base units can be used in combination with each other. This creates SI derived units, which can be used to describe other quantities, such as volume, energy, pressure, and velocity.
+The system is used almost globally. Only Myanmar, Liberia, and the United States do not use SI as their official system of measurement. In these countries, though, SI is commonly used in science and medicine.

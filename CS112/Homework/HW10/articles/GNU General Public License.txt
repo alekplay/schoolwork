@@ -1,0 +1,6 @@
+GNU General Public License
+The GNU General Public License (GPL) is a computer software copyleft license. This license lets the user of the software use a program in many of the same ways as if it were public domain. They can use it, change it, and copy it. They can also sell or give away copies of the program with or without any changes they made to it. The license lets them do this as long as they agree to follow the terms of the license. The GPL was created by Richard Stallman. The current version is version 3, created in 2007, although some software still uses version 2, created in 1991.
+There are two main terms to the license. Both apply to giving the program away or selling it.
+A copy of the source code or written instructions about how to get a copy must be included with the software. If the software is able to be downloaded from the internet, the source code must also be available for downloading.
+The license of the software can not be changed or removed. It must always use the GPL.
+If the user does not agree to follow the GPL, they can still use the software under copyright laws. They can use it and make copies or changes to it for themselves, but they can not give it away or sell it. They also can not change the license.

@@ -1,0 +1,49 @@
+Homework 01 - CS112 BU - prof. Snyder
+
+Made by: Aleksander Skjoelsvik - U54904431 // Jan 27th 2014
+
+Part A.1:
+
+	1. 	False
+	2. 	True
+	3. 	FIFO - Queue
+		LIFO - Stack
+	4.	push()
+	5.	+   +
+		| 7 |
+		| 9 |
+		| 2 |		
+		| 8 |
+		| 1 |
+		| 3 |
+		| 7 |
+		+---+
+	6.	+---------------+
+		| R | T | D | E |
+		+---------------+
+	7.	+-------------------+
+		| Z | W | Q | F | E |
+		+-------------------+
+		
+Part A.2:
+
+	8.	2, 3, 4
+	9.  3, 4
+	10.	You end up reversing the order of the elements in the queue
+	11.	Nothing would change
+	12. 
+		void swapTwo(Stack s) {
+			if(!(s.isEmpty())) {
+				int firstInt = s.pop();
+				if(!(s.isEmpty())) {
+					int secondInt = S.pop();
+					s.push(firstInt);
+					s.push(firstInt);
+					return s;
+				} else {
+					return s;
+				}
+			} else {
+				return s;
+			}
+		}

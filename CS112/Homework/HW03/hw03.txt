@@ -1,0 +1,217 @@
+Homework 03 - CS112 BU - prof. Snyder
+
+Made by: Aleksander Skjoelsvik - U54904431 // Feb 12th 2014
+
+Part A.A:
+	
+	1.1	mysteryA(2) calls mystery(4)
+		  mystery(4) calls (mystery(16)
+		    mystery(16) calls mystery(256)
+		      mystery(256) returns 256
+		    mystery(16) returns 256
+		  mystery(4) returns 256
+		mystery(2) returns 256
+
+	1.2	mysteryB(0,1) calls mystery(1,1)
+		  mystery(1,1) calls mystery(2,2)
+		    mystery(2,2) calls mystery(3,4)
+		      mystery(3,4) calls mystery(4,7)
+			mystery(4,7) calls mystery(5,11)
+			  mystery(5,11) returns 5
+			mystery(4,7) returns 5
+		      mystery(3,4) returns 5
+		    mystery(2,2) returns 5
+		  mystery(1,1) returns 5
+		mystery(0,1) returns 5
+
+	1.3	mystery(arr,0,1) calls mystery(arr,1,1)
+		  mystery(arr,1,1) calls mystery(arr,2,2)
+		    mystery(arr,2,2) calls mystery(arr,3,4)
+		      mystery(arr,3,4) calls mystery(arr,4,7)
+			mystery(arr,4,7) calls mystery(arr,5,11)
+			  mystery(arr,5,11) returns
+			mystery(arr,4,7) sets arr = [0, 0, 0, 0, 7]
+		      mystery(arr,3,4) sets arr = [0, 0, 0, 4, 7]
+		    mystery(arr,2,2) sets arr = [0, 0, 2, 4, 7]
+		  mystery(arr,1,1) sets arr = [0, 1, 2, 4, 7]
+		mystery(arr,0,1) sets arr = [1, 1, 2, 4, 7]
+
+	2.1	public static int loopA(int a, int b) {
+		    if(b >= 100) return b;
+		    return loopA(a, b+a*b);
+		}
+
+	2.2	public static void loopB(int[] arr) {
+        	    helperB(arr, 0);
+		}
+    
+		public static void helperB(int[] arr, int i) {
+        	    if(i >= arr.length) {
+            	        return;
+                    }
+        	    arr[i]++;
+        	    helperB(arr, ++i);
+    		}
+
+	2.3	public static void loopC(int[] a, int[] b) {
+		    helperC(a, b, 0);
+		}
+
+		public static void helperC(int[] a, int[] b, int i) {
+		    if((i >= a.length) || (i >= b.length)) return;
+		    a[i] += b[i];
+		    helperC(a, b, i++);
+		}
+
+Part A.B:
+
+	1.	Assumption: array cannot contain elements of value ‘0’
+
+		Implementation:
+		Define the function removeDups, takes integer array as parameter
+		  Define new integer variable, ‘numDups’, starting at 0
+		  Run a for loop as many times as length of array, counter is named ‘i’
+		    Run another for loop that runs as many times as ‘i’ minus array length is, counter is named ‘j’
+		      If-statement checks if the element at ‘i’ equals the element at ‘j’
+			If it does, increment ‘numDups’ and set the element at ‘i’ equal to 0
+		  After both for-loops are done, create a new array with length of previous array minus ‘numDups’, array name is ‘newArr’
+		  Create a counter, ‘j’, starting at 0
+		  Run a for-loop as many times as length of original array, counter is named ‘i’
+		    If-statement to check if element of original array at ‘i’ is not equal to 0
+		      If it is not, add the element to the new array, and increment ‘j’
+		  After for-loop is done, return the new array ‘newArr’
+
+		public static int[] removeDups(int[] arr) {
+        	  Initialize int variable ‘numDups’ and set to 0
+        	  for(integer ‘i’, starts at 0 and runs to length of ‘arr’-1) {
+            	    for(integer ‘j’, starts at ‘i’ and runs to length of ‘arr’-1) {
+                      if(element of ‘arr’ at ‘i’ equals element of ‘arr’ at ‘j’) {
+                        Increment numDups
+                        set element of ‘arr’ at ‘i’ to 0
+                      }
+            	    }
+        	  }
+        	  Define new integer array, ‘newArr’, with length of ‘arr’ minus ‘numDups’
+        	  Initialize int variable ‘j’ and set to 0
+        	  for(integer ‘i’, starts at 0 and runs to length of ‘arr’-1) {
+            	    if(element of ‘arr’ at ‘i’ is not equal to 0) {
+                      add the element of ‘arr’ at i to ‘newArr’ at j
+                      increment j
+            	    }
+        	  }
+        	  return newArr;
+    		}
+
+	2.	Assumption: Using a helper method
+
+		Implementation:
+		boolean contains(int[] arr, int k) {
+    		  Call helper method like this: containsHelper(arr, k, 0) and return value
+		}
+
+		boolean containsHelper(int[] arr, int k, int i) {
+    		  if (‘i’ is less than 0 or ‘i’ is greater than or equal to array length) { 
+		    return false;
+		  }
+    		  if (the element of ‘arr’ at ‘i’ equals ‘k’) {
+		    return true;
+		  } else {
+		    Call itself like this: containsHelper(arr, k, i + 1) and return value
+		}
+
+	3.	Assumption: Using a helper method
+		
+		Implementation:
+		public static int find(int[] arr, int k) {
+        	  Call helper method like this: findHelper(arr, k, 0) and return value
+    		}
+    
+    		public static int findHelper(int[] arr, int k, int i) {
+        	  if(the element of ‘arr’ at ‘i’ equals ‘k’) {
+            	    return the variable ‘i’;
+        	  } else if (‘i’ is greater than or equal to the length of ‘arr’ minus 1) {
+            	    return -1;
+        	  }
+        	  Call itself like this: findHelper(arr, k, ++i) and return value
+    		}		
+
+
+	4.	Assumption: Using a helper method
+
+		Implementation:
+		public static int count(int[] arr, int k) {
+        	  Call helper method like this: countHelper(‘arr’, ‘k’, 0, 0) and return value
+    		}
+    
+    		public static int countHelper(int[] arr, int k, int i, int count) {
+        	  if(‘i’ is greater than or equal to the length of the array) {
+            	    return ‘count’;
+        	  }
+        	  if(the element of ‘arr’ at ‘i’ equals k) {
+            	    increment ‘count’;
+        	  }
+        	  Call itself like this: countHelper(arr, k, ++i, count) and return value
+    		}
+
+
+
+
+
+
+
+** There is some uncertainty as to what pseudo code is, so I wrote it like I found examples of on Google. Under is the actual code for some of the methods: **
+
+1.
+int[] removeDups(int[] arr) {
+        int numDups = 0;
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i+1; j < arr.length; j++) {
+                if(arr[i] == arr[j]) {
+                    numDups++;
+                    arr[i] = 0;
+                }
+            }
+        }
+        int[] newArr = new int[arr.length - numDups];
+        int j = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] != 0) {
+                newArr[j] = arr[i];
+                j++;
+            }
+        }
+        System.out.println(Arrays.toString(newArr));
+        return newArr;
+    }
+
+2.
+On homework file
+
+3.
+int find(int[] arr, int k) {
+        return findHelper(arr, k, 0);
+    }
+    
+int findHelper(int[] arr, int k, int i) {
+        if(arr[i] == k) {
+            return i;
+        } else if (i >= arr.length-1) {
+            return -1;
+        }
+        return findHelper(arr, k, ++i);
+}
+
+4.
+int count(int[] arr, int k) {
+        return countHelper(arr, k, 0, 0);
+    }
+    
+int countHelper(int[] arr, int k, int i, int count) {
+        if(i >= arr.length) {
+            return count;
+        }
+        if(arr[i] == k) {
+            count++;
+        }
+        return countHelper(arr, k, ++i, count);
+}

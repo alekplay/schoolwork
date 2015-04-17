@@ -1,0 +1,31 @@
+List of nearest galaxies
+This list of the nearest galaxies to Earth is ordered by increasing distance. Many of the distances are only guesses, and some may be incorrect by 50% or more. The distance ranking in this list should be seen only as a guess. Distances are given in light years (ly).
+Milky Way – home galaxy of Earth
+Canis Major dwarf galaxy – 25,000 ly (satellite of Milky Way)
+Sagittarius Dwarf – 81,000 ly (satellite of Milky Way)
+Large Magellanic Cloud – 160,000 ly (satellite of Milky Way)
+Small Magellanic Cloud – 190,000 ly (satellite of Milky Way)
+Ursa Minor Dwarf – 205,500 ly (satellite of Milky Way)
+Draco Dwarf – 248,000 ly (satellite of Milky Way)
+Sculptor Dwarf – 254,000 ly (satellite of Milky Way)
+Sextans Dwarf – 257,500 ly (satellite of Milky Way)
+Carina Dwarf – 283,500 ly (satellite of Milky Way)
+Fornax Dwarf – 427,000 ly (satellite of Milky Way)
+Leo II – 701,000 ly
+Leo I – 890,000 ly
+Phoenix Dwarf – 1,271,000 ly
+Barnards Galaxy (NGC 6822) – 1,760,000 ly
+NGC185 – 2,021,000 ly (satellite of Andromeda)
+NGC147 – 2,152,000 ly (satellite of Andromeda)
+Andromeda galaxy (M31) – 2,363,000 ly
+M32 (NGS 221) – 2,363,500 ly (satellite of Andromeda)
+M110 (NGC 205) – 2,363,500 ly (satellite of Andromeda)
+Andromeda I – 2,363,500 ly (satellite of Andromeda)
+Andromeda II – 2,363,500 ly (satellite of Andromeda)
+Andromeda III – 2,363,500 ly (satellite of Andromeda)
+LGS 3 – 2,477,500 ly (satellite of Triangulum)
+IC 1613 – 2,494,000 ly
+Triangulum galaxy (M33) – 2,592,000 ly
+Aquarius Dwarf – 2,608,000 ly
+Tucana Dwarf – 2,836,000 ly
+Wolf-Lundmark-Melotte (WLM) – 3,064,500 ly

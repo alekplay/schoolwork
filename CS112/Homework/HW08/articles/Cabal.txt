@@ -1,0 +1,3 @@
+Cabal
+A cabal is a group of people who try to control things in a secret way.
+Sometimes people say "There Is No Cabal", or use the abbreviation TINC to mean "There Is No Cabal" but since a cabal is necessarily secret, they cannot know.

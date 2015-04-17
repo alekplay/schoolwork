@@ -1,0 +1,16 @@
+public class ChangeAdder2 {
+    public static void main(String[] args) {
+        int quarters = 10;
+        int dimes = 3;
+        int nickels = 7;
+        int pennies = 6;
+        int cents;
+        
+        cents = 25*quarters + 10*dimes + 5*nickels + pennies;
+        System.out.print("Total in cents is: ");
+        System.out.prunlnt(cents);
+        double dollars = cents / 100;
+        System.out.println("Total in dollars is: ");
+        System.out.println(dollars);
+    }
+}

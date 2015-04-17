@@ -1,0 +1,4 @@
+Square
+A square is a shape with four equal sides and four corners that are all right angles (90 degrees). The diagonals of a square also cross at right angles. The angle between any diagonal and a side of a square is 45 degrees. A square has rotational symmetry of four. It has four lines of regular symmetry.
+A square is a type of rectangle with all sides of equal length. However note that while a square is a type of rectangle, a rectangle does not necessarily need to be a square.
+A square is also the 2-dimensional analogue of a cube.

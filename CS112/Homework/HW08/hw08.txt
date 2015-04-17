@@ -1,0 +1,82 @@
+Homework 08 - CS112 BU - prof. Snyder
+Made by: Aleksander Skjoelsvik - U54904431 // Mar 31st 2014
+
+Part A:
+
+1. 	a.	index	{key	datum		next}
+		0	12	“beer”		-
+		1
+		2	4	“apples”	-
+		3
+		4	2	“bread”		38
+			38	“diapers”	-
+		5	1	“eggs”		-
+
+	Worst-case lookup: 	2
+	Average-case lookup:	1,25
+
+	b.	index	{key	datum		next}
+		0	
+		1	41	“pears”		29
+			29	“flour”		-
+		2	4	“apples”	-
+		3	63	“sugar”		21
+			21	“chicken”	-
+		4	38	“diapers”	-
+		5	25	“beef”		-
+
+	c.	Worst-case lookup: 	2
+		Average-case lookup:	1,4
+
+	d.	5, 11, 17, 23, 29, 35 and so on (increment by 6, will place in spot 1)
+
+	e.	Theta(M)
+
+	f.	Theta(M/N)
+
+2.	a.	index	{key}
+		0	
+		1	4
+		2	
+		3	1
+		4	
+		5	
+		6	2
+		7	28
+		8	
+		9	
+		10	
+	
+	b.	Worst-case lookup:	1
+
+	c.	index	{key}
+		0	
+		1	4
+		2	63
+		3	1
+		4	23
+		5	19
+		6	2
+		7	28
+		8	13
+		9	
+		10
+
+	d.	Worst-case lookup:	4
+
+	e.	Average-case lookup:	1,75
+
+	f.	index	{key}
+		0	
+		1	4
+		2	63
+		3	-
+		4	5
+		5	19
+		6	2
+		7	28
+		8	13
+		9	
+		10	
+
+	g.	Worst-case lookup:	Theta(M) (where M = number of keys)

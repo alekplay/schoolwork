@@ -1,0 +1,141 @@
+<>< 	CS131 - Homework 4 			><>
+<><	Aleksander Skjoelsvik - U54904431 	><>
+<><	March 1st 2014				><>
+
+———————————————————————————————————————————————————
+
+1.	a.	i.	2^2 = 4 rows in truth table
+		ii.	x |-> T, y |-> T
+		iii.	x |-> T, y |-> T
+		iv.	2
+
+	b.	i.	2^2 = 4 rows in truth table
+		ii.	x |-> T, y |-> F
+		iii.	x |-> T, y |-> F
+		iv.	2
+
+	c.	i.	2^1 = 2 rows in truth table
+		ii.	x |-> F
+		iii.	x |-> F
+		iv.	1
+
+	d.	i.	2^3 = 8 rows in truth table
+		ii.	x |-> T, y |-> T, z |-> T
+		iii.	x |-> T, y |-> T, z |-> T
+		iv.	3
+
+	e.	i.	2^1 = 2 rows in truth table
+		ii.	x |-> F
+		iii.	x |-> F
+		iv.	1
+
+	f.	i.	2^2 = 4 rows in truth table
+		ii.	x |-> T, y |-> F
+		iii.	x |-> T, y |-> F
+		iv.	2
+
+———————————————————————————————————————————————————
+
+2.	a.	Does not hold. Regardless of what x is, it will not be equal
+		to not(x). T != not(T).
+
+	b.	Does hold, because:
+		x <= y				=
+		(not(x) or y)			=
+		not(not(not(x)) and (not y))	=
+		not(x and not y)
+
+	c.	Does not hold. If x is less than y, y cannot be less than x. 
+		It only works in the case where they are equal, but the 
+		operator states “less than or equal to” in terms of values.
+		Here is an example:
+		0 <= 1	= True
+		1 <= 0	= False
+
+	d.	Does hold, because both have the same truth table (used the truth table
+		formula we made in a previous homework)
+
+	e.	Does hold. Using some algebraic laws for logical operands we
+		get that:
+			(not(x) or y)	=
+			x <= y
+		Which gives us:
+			 (x <= y) and x
+			————————————————
+				y	
+		Based on modus ponens, the above is true.
+
+———————————————————————————————————————————————————
+
+3.	a.	A | (U - C)
+
+	b.	A & (B | C)
+	
+	c.	U - (A & B & C)
+
+	d.	f <= g === (not(f)) or g
+		(U - A) | B
+
+	e.	(f and f) or (not(f) and not(f))
+		(A & A) | ((U-A) & (U-A))
+		A | (U - A)
+
+	f.	U
+
+———————————————————————————————————————————————————
+
+4.	a.	b <= c
+		d <= e
+		d <= b
+		c <= d
+		c <= a
+		a <= b
+		a
+		
+		ii.	b
+		ii.	c
+		ii.	d
+		
+		e
+
+	b.	products are in boxes
+		boxes are in containers
+		containers are in warehouses
+
+		i, iii, iv)	products are in boxes and boxes are in containers <= 
+				products are in containers
+		ii) 		products are in containers
+		i, iii, iv)	products are in containers and containers are in 
+				warehouses <= products are in warehouses
+
+		products are in warehouses
+
+	c.	a is a string
+		b is a string
+		∀ s, s is a string <= sa is a string
+		∀ s, s is a string <= sb is a string
+
+		iv)	a is a string <= ab is a string
+		ii)	ab is a string
+		iv)	ab is a string <= aba is a string
+		ii) 	aba is a string
+		iv)	aba is a string <= abaa is a string
+
+		abaa is a string
+
+	d.	0 is less than or equal to 0
+		∀ n, 0 is less than or equal to n <= 0 is less than or equal to n+1
+
+		iv)	0 is less than or equal to 0 <= 0 is less than or equal to 
+			0+1
+		ii)	0 is less than or equal to 0+1
+		iv)	0 is less than or equal to 0+1 <= 0 is less than or equal to 
+			0+1+1
+		ii)	0 is less than or equal to 0+1+1
+		iv)	0 is less than or equal to 0+1+1 <= 0 is less than or equal 
+			to 0+1+1+1
+		ii)	0 is less than or equal to 0+1+1+1
+		iv)	0 is less than or equal to 0+1+1+1 <= 0 is less than or 
+			equal to 0+1+1+1+1
+
+		0 is less than or equal to 0+1+1+1+1

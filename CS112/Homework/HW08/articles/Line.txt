@@ -1,0 +1,3 @@
+Line
+A line is the path of one point moving. A line has length but no width. A line is a type of geometric figure.
+A line is made up of an endless number of points.

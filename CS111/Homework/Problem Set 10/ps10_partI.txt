@@ -1,0 +1,58 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 10 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1.	Done.
+
+--------------------------------------------------------------
+
+2a.	public class Limousine extends Automobile {
+
+b.	private Boolean hasFridge;
+	private Boolean hasSunRoof;
+	
+c.	public Limousine(String make, String model, int year, int numSeats, Boolean fridge, Boolean sunRoof) {
+		super(String make, String model, int year, int numSeats, false);
+		this.hasFridge = fridge;
+		this.hasSunRoof = sunRoof;
+	}
+
+d.	public Boolean getFridge() {
+		return hasFridge;
+	}
+
+	public Boolean getSunRoof() {
+		return hasSunRoof;
+	}
+
+	public int getNumSeats() {
+		return numSeats - 2;	
+	}
+
+	public String toString() {
+		String str = getMake() + getModel() + “ (“ + getNumSeats() + “seats)”;
+		return str;
+	}
+
+--------------------------------------------------------------
+
+3a. 	Works - You’re defining a new Automobile of type Object, this works since Automobile is an object.
+
+b.	Doesn’t work - You’re defining a new Truck of type TractorTrailer, this doesn’t work since not all Trucks are TractorTrailers.
+
+c.	Works - You’re defining a new Taxi of type Vehicle, this works since a Taxi is a Vehicle.
+
+d.	Doesn’t work - You’re defining a new Motorcycle of type Truck, this doesn’t work since no Motorcycles are Trucks.
+
+--------------------------------------------------------------
+
+4a. 	weezow zow eekweezow
+
+b.	weeyow yow eekweeyow
+
+c.	weeyow yow eekweeyow
+
+d.	Doesn’t compile - There is no method in “Zoo” that has name “extra”
+

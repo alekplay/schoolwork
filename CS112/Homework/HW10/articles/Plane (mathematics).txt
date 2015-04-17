@@ -1,0 +1,11 @@
+Plane (mathematics)
+Plane can also refer to airplane.
+
+A plane is a perfectly flat surface extending in all directions. Try to imagine the ceiling of a room, only extended into all directions infinitely. A plane has two dimensions : length and width. All planes are flat surfaces. If a surface is not flat, it is called a curved surface.
+The tool plane can be used to create a flat, level surface like the mathematical plane: therefore the name.
+In geometry, a plane is made up of an infinite number of lines (or points). It has no depth.
+A plane figure is part of a plane. It is named by the capital letters (e.g. A, B, C, ...X, Y, Z) that are put at its corners.
+Mathematicians say two planes can be:
+Parallel = they never meet.
+Concurrent = they meet forming a line.
+Coincident = they are one and the same.

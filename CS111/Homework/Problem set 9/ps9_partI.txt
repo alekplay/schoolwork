@@ -1,0 +1,57 @@
+*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+** 	Problem set 9 				**
+*	Part 1 					*
+
+--------------------------------------------------------------
+
+1a.	5 5 3
+		foo[2] is set to 5
+		bar[2] = foo[2]
+		baz[2] = foo[2] before set to 5 (foo[2] = 3)
+
+b.	public static void negate(int[] data) {
+        		for(int i = 0; i <  data.length; i++) {
+            		data[i] = - data[i];
+        		}
+    	}
+
+c.	public static Boolean hasDups(int[] data) {
+        	for(int i = 0; i < data.length; i++) {
+            		for(int j = i + 1; j < data.length; j++) {
+                		if(data[i] == data[j]) {
+                    			return true;
+                		}
+            		}
+        	}
+        	return false;
+    	}
+
+--------------------------------------------------------------
+
+2a. 	mystery(1, 8);
+	    1 + mystery(2, 6);
+	       	1 + mystery(3, 4);
+		    1 + mystery(4, 2);
+			4
+		    5
+		6
+	    7
+
+b.	It outputs 7
+
+c.	NB!
+	public static void printInterleaved(String str1, String str2) {
+        	if((str1 == null) || (str2 == null)) {
+          	  	throw new IllegalArgumentException();
+        	}
+    	}
+
+--------------------------------------------------------------
+
+3a. 	i.	It should be non-static because we’re accessing fields inside the object.
+	ii.	Grade.g.addExtraCredit(double amount);
+
+b.	i.	It should be static because it’s not accessing fields inside the object.	
+	ii.	Grade.computePercent(double pointsEarned, double possiblePoints);
+
+--------------------------------------------------------------

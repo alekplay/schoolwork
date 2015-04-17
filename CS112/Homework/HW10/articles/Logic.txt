@@ -1,0 +1,6 @@
+Logic
+Logic is the science of reasoning. Logic helps people decide whether something is true or false.
+A popular example of a syllogism given by Aristotle:
+All men are mortal
+Socrates is a man
+Therefore, Socrates is mortal.

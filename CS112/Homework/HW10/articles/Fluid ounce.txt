@@ -1,0 +1,5 @@
+Fluid ounce
+A fluid ounce is a unit of volume in both the imperial system of units and the U.S. customary units system. However, the two measures are not quite the same:
+The Imperial fluid ounce is (1/160) of an imperial gallon or 8 fluid drams, about 1.734 cubic inches or exactly 28.413 07425 mL (as specified legally in The Units of Measurement Regulations 1995). This volume of water weighs very nearly 1 avoirdupois ounce.
+The U.S. fluid ounce is (1/128) of a U.S. fluid gallon, about 1.805 cubic inches or exactly 29.573 529 562 5 mL. This volume of water weighs about 1.04 avoirdupois ounces.
+U.S. law 21CFR101.9(b)(5)(viii) also defines a fluid ounce of exactly 30 mL, for use in nutrition labeling.

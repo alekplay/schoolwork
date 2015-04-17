@@ -1,0 +1,5 @@
+Dimension
+Dimensions are a concept from mathematics and physics: One way to define a dimension is to look at the degrees of freedom a movement has in in a specific space. There are different concepts where the term dimension is used and there are also different definitons. There is no definition that can satisfy all concepts.
+In a vector space, a dimension is equal to the cardinality of the minimal generator. It is also equal to the cardinality of the maximal set of linearly independent vectors of that space. "Normal" objects in everyday life are specified by three dimenensions, which are usually called length, width and depth. Mathematicians call this concept Euclidean space.
+Dimensions can be used to measure position too. The distance to a position from a starting place can be measured in the length, width and height directions. These distances are a measure of the position.
+Sometimes a fourth (4D) dimension, time, is used to show the position of an event in time and space.

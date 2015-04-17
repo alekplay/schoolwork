@@ -1,0 +1,5 @@
+Graph
+A graph is a picture designed to express words, particularly the connection between two or more quantities. You can see a graph on the right.
+A simple graph usually shows the relationship between two numbers or measurements in the form of a grid. If this is a rectangular graph, these two measurements will be arranged into two different lines at right angles to one another. One of these lines will be going up (the vertical axis). The other one will be going right (the horizontal axis). These lines (or axes, the plural of axis) meet at their ends in the lower left corner of the graph.
+Both of these axes have tick marks along their lengths. You can think of each axis as a ruler drawn on paper. So each measurement is indicated by the length of the associated tick mark along the particular axis.
+Another word for graph is chart or diagram. However, a chart or a diagram may not relate one quantity to other quantities. Flowcharts and tree diagrams are examples of charts or diagrams that are not graphs.
