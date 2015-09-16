@@ -2,7 +2,7 @@
 Homework, assignments, and projects from College.
 
 ##### Current Courses
-* __CS111__ - Introduction to Computer Science 1
+* [__CS111__](/CS111) - Introduction to Computer Science 1
 * __CS112__ - Introduction to Computer Science 2
 * __CS131__ - Combinatoric Structures
 * __CS210__ - Computer Systems
