@@ -1,6 +1,6 @@
 """
     CS235 Homework 3
-    Aleksander Skjoelsvik - U54904431
+    Aleksander Skjoelsvik
 """
 
 from math import floor

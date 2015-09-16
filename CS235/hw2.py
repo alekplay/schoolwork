@@ -1,6 +1,6 @@
 """
     CS235 Homework 2
-    Aleksander Skjoelsvik - U54904431
+    Aleksander Skjoelsvik
 """
 
 from fractions import gcd

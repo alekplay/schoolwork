@@ -1,6 +1,6 @@
 """
     CS235 Homework #1
-    Aleksander Skjoelsvik - U54904431    
+    Aleksander Skjoelsvik
 """
 
 def quotient(X, R):
