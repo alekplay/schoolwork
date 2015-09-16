@@ -1,5 +1,5 @@
 ##Schoolwork
-Homework, assignments, and projects from College.
+Computer Science homework, assignments, projects, and tests from my time at __Boston University__. 
 
 ##### Current Courses
 * [__CS111__](/CS111) - Introduction to Computer Science 1
@@ -14,3 +14,8 @@ Homework, assignments, and projects from College.
 * __CS410__ - Advanced Software Systems
 * __CS411__ - Software Engineering
 * __CS460__ - Database Systems
+
+#####Notice:
+* These solutions are provided __as-is__ for free because I believe in _open sharing of information_. Don't come complaining to me if you get caught cheating or miss a point on an exam becuase I had the wrong solution.
+
+Connect with me at [http://aleksanders.me](/http://www.aleksanders.me)
