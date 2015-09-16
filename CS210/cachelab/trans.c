@@ -1,6 +1,6 @@
 /* CS210 Programming Assignment 3
  * Part B
- * Aleksander Skjoelsvik (U54904431) in collaboration with Raphael Baysa (U99595463)
+ * Aleksander Skjoelsvik  in collaboration with Raphael Baysa 
  */
 
 /*
