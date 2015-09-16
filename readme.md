@@ -7,7 +7,10 @@ Homework, assignments, and projects from College.
 * __CS131__ - Combinatoric Structures
 * __CS210__ - Computer Systems
 * __CS235__ - Algebraic Algorithms
+* __CS320__ - Concepts of Programming Languages
+* __CS132__ - Geometric Algorithms
 
 ##### Coming Soon
-* __CS132__ - Geometric Algorithms
-* __CS320__ - Concepts of Programming Languages
+* __CS410__ - 
+* __CS411__ - Software Engineering
+* __CS460__ - Databases
