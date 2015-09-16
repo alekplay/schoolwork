@@ -1,7 +1,6 @@
 """
     CS132 Homework 9
     Aleksander Skjoelsvik
-    U54904431
 """
 
 import numpy as np

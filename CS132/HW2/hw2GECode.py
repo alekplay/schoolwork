@@ -1,6 +1,6 @@
 """
     CS132 Homework 2
-    Aleksander Skjoelsvik - U54 90 4431
+    Aleksander Skjoelsvik
 """
 
 import numpy as np
