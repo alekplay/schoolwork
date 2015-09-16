@@ -1,6 +1,6 @@
 Homework 03 - CS112 BU - prof. Snyder
 
-Made by: Aleksander Skjoelsvik - U54904431 // Feb 12th 2014
+Made by: Aleksander Skjoelsvik  // Feb 12th 2014
 
 Part A.A:
 	

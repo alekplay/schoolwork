@@ -1,5 +1,5 @@
 /* CS112 - LAB 01 - January 27th 2014
- * Edited by: Aleksander Skjoelsvik  U54-90-4431
+ * Edited by: Aleksander Skjoelsvik
  */
 
 public class IntQueue implements IntQueueable {

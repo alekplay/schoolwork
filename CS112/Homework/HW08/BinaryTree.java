@@ -3,7 +3,7 @@
  * 
  * This is a binary tree
  * 
- * Made by: Aleksander Skjoelsvik - U54904431
+ * Made by: Aleksander Skjoelsvik
  * Based on code for binary tree provided by prof. Snyder on website
  */
 

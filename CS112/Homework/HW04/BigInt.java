@@ -4,7 +4,7 @@
  * Class: CS 112, Spring 2014
  * Purpose: This is the template for HW 04, a class which is a container for several static methods
  *          for adding arrays of integers which represent large integers.
- * Edited by: Aleksander Skjoelsvik - U54904431 / Feb 19th 2014
+ * Edited by: Aleksander Skjoelsvik / Feb 19th 2014
  */
 
 public class BigInt  { 

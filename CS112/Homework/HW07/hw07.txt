@@ -1,5 +1,5 @@
 Homework 07 - CS112 BU - prof. Snyder
-Made by: Aleksander Skjoelsvik - U54904431 // Mar 27th 2014
+Made by: Aleksander Skjoelsvik  // Mar 27th 2014
 
 1.	1.	F G I H B D E C A
 	2.	A C E D B H I G F

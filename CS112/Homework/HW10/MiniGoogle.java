@@ -2,7 +2,7 @@
  * 
  * Problem four | Homework 10 | CS112 | prof. Snyder
  * 
- * Made by: Aleksander Skjoelsvik - U54904431
+ * Made by: Aleksander Skjoelsvik
  * 
  * Thu April 17th.
  * 

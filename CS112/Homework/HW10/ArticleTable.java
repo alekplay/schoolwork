@@ -5,7 +5,7 @@
  * 
  * For homework 10 | CS112 | BU
  * 
- * Made by: Aleksander Skjoelsvik - U54904431
+ * Made by: Aleksander Skjoelsvik
  * Based on code for HashTable on website by prof. Snyder
  */
 

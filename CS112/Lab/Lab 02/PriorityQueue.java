@@ -3,7 +3,7 @@
  * Author:  Wayne Snyder (snyder@bu.edu)
  * Class: CS 112, Fall 2014
  * Purpose: Starter code for Lab02
- * Edited by: Aleksander Skjoelsvik - u54 90 431
+ * Edited by: Aleksander Skjoelsvik
  */
 
 

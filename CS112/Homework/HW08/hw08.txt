@@ -1,5 +1,5 @@
 Homework 08 - CS112 BU - prof. Snyder
-Made by: Aleksander Skjoelsvik - U54904431 // Mar 31st 2014
+Made by: Aleksander Skjoelsvik  // Mar 31st 2014
 
 Part A:
 

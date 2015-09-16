@@ -6,7 +6,7 @@
  * Author: Alexander Breen (abreen@bu.edu) and Wayne Snyder (waysnyder@gmail.com)
  * Date: March 24, 2014
  * 
- * Edited by: Aleksander Skjoelsvik - U54904431
+ * Edited by: Aleksander Skjoelsvik
  */
 
 public class DumbList {

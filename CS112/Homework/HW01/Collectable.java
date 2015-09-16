@@ -1,5 +1,5 @@
 /* Homework 1 - CS112 - BU - Prof. Snyder
- * Edited/made by: Aleksander Skjoelsvik - U54904431
+ * Edited/made by: Aleksander Skjoelsvik 
  */
 
 public interface Collectable { 

@@ -1,5 +1,5 @@
 /* ComplexityLaboratory - CS112 BU HW03 - SNYDER
- * Made by: Aleksander Skjoelsvik - U54904431 / Feb 13th 2014
+ * Made by: Aleksander Skjoelsvik / Feb 13th 2014
  */
 
 import java.util.Random;
