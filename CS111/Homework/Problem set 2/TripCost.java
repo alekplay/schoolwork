@@ -4,7 +4,7 @@
  * 
  * base code provided by the course staff
  * 
- * algorithm implemented by: Aleksander Skj¿lsvik - alsk@bu.edu
+ * algorithm implemented by: Aleksander Skj¿lsvik
  * 
  * This program computes the cost of a trip, based on
  * the relevant values.

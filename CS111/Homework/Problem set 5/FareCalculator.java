@@ -1,5 +1,5 @@
 /* Problem set 5 - Part II - Task 5
- * Aleksander Skj¿lsvik - alsk@bu.edu
+ * Aleksander Skj¿lsvik
  */
 
 import java.util.*;

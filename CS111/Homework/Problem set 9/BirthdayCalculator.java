@@ -7,7 +7,7 @@
  *  
  * Computer Science 111, Boston University
  * 
- * printBirthdays method completed by: Aleksander Skjoelsvik - alsk
+ * printBirthdays method completed by: Aleksander Skjoelsvik
  */
 
 import java.util.*;

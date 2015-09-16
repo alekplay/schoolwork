@@ -4,7 +4,7 @@
  * 
  * base code provided by the course staff
  * 
- * algorithm implemented by: Aleksander Skj¿lsvik - alks@bu.edu
+ * algorithm implemented by: Aleksander Skj¿lsvik
  * 
  * This program computes the necessary length of a ladder, given
  * the height of the point to be reached and the angle at which the

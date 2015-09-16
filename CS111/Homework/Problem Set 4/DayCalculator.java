@@ -5,7 +5,7 @@
  * 
  * Computer Science 111, Boston University
  *
- * modified by: Aleksander Skj¿lsvik, alsk@bu.edu
+ * modified by: Aleksander Skj¿lsvik
  */
 
 import java.util.*;

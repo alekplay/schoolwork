@@ -1,6 +1,6 @@
 /* CS 111 - Problem set 3
  * Part II - Task 6 - First version
- * Aleksander Skj¿lsvik - alsk@bu.edu
+ * Aleksander Skj¿lsvik 
  */
 
 public class DrawZakim {

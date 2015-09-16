@@ -1,4 +1,4 @@
-*** 	Aleksander Skjølsvik - alsk@bu.edu 	***
+*** 	Aleksander Skjølsvik	***
 ** 	Problem set 3 				**
 *	Part 1 					*
 

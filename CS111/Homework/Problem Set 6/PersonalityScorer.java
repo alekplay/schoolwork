@@ -1,6 +1,6 @@
 /*
  * Problem set 6 - Part 2 - Task 1
- * Aleksander Skj¿lsvik - alsk@bu.edu
+ * Aleksander Skj¿lsvik 
  */
 
 import java.util.*;

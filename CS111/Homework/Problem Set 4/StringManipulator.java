@@ -1,6 +1,6 @@
 /*
  * Problem Set 4 - Part II T 4
- * Aleksander Skj¿lsvik - alsk@bu.edu
+ * Aleksander Skj¿lsvik 
  * October 17th 2013
  */
 

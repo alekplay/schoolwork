@@ -1,5 +1,5 @@
 /*
- * Aleksander Skjoelsvik - alsk 
+ * Aleksander Skjoelsvik  
  */
 
 public class Person {

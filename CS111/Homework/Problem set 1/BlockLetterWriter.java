@@ -1,7 +1,6 @@
 /*
  * BlockLetterWriter.java
  * Aleksander Skj¿lsvik
- * alsk@bu.edu
  * This program prints out the phrase "DA DOO RON RON"
  */
 

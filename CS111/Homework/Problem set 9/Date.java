@@ -4,7 +4,7 @@
  * 
  * starter code by: Computer Science 111, Boston University
  * 
- * completed by: Aleksander Skjoelsvik - alsk
+ * completed by: Aleksander Skjoelsvik
  */
 
 public class Date {
