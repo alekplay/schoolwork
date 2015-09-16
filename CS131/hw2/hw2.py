@@ -1,7 +1,7 @@
 """ 
 	CS131 - Lapets
 	Homework 2
-	Aleksander Skjoelsvik - U54904431
+	Aleksander Skjoelsvik 
 	Contributors: 
 """
 

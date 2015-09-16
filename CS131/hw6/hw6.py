@@ -1,9 +1,8 @@
 """ 
 	CS131 - Lapets
 	Homework 6
-	Aleksander Skjoelsvik - U54904431
+	Aleksander Skjoelsvik
 	Contributors: Raph Baysa
-	(NOTE: Me and Raph made some last minute changes to our twoC, solutions() and hgtToSizes(). We didn't have time to test them properly, but they should work fine. In the case they don't work as they are meant to, below them are our first implementations of them. Might test them as well. They should work too, but the answers we came up with together are better)
 """
 
 from math import factorial
