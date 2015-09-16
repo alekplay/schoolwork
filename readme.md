@@ -1,7 +1,7 @@
 ##Schoolwork
 Computer Science homework, assignments, projects, and tests from my time at __Boston University__. 
 
-##### Current Courses
+##### Finished Courses
 * [__CS111__](/CS111) - Introduction to Computer Science 1
 * [__CS112__](/CS112) - Introduction to Computer Science 2
 * [__CS131__](/CS131) - Combinatoric Structures
