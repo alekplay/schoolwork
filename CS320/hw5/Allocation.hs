@@ -3,7 +3,7 @@
 -- CAS CS 320, Spring 2015
 -- Assignment 5 (skeleton code)
 -- Allocation.hs
--- Aleksander Skjoelsvik U54904431
+-- Aleksander Skjoelsvik
 --
 
 module Allocation where
