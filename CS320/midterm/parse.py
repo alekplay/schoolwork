@@ -3,7 +3,7 @@
 # CAS CS 320, Spring 2015
 # Midterm (skeleton code)
 # parse.py
-# Aleksander Skjoelsvik - U54904431
+# Aleksander Skjoelsvik
 #
 #  ****************************************************************
 #  *************** Modify this file for Problem #1. ***************
