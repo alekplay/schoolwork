@@ -1,5 +1,5 @@
 {- CS320 Final Project
- - Aleksander Skjoelsvik - U54904431
+ - Aleksander Skjoelsvik
  - Collaborators: Raphael Baysa, Vivek Kotecha
  -}
 
