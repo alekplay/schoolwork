@@ -1,6 +1,6 @@
 """
     CS320 - Homework 2
-    Aleksander Skjoelsvik - U54904431
+    Aleksander Skjoelsvik
 """
 
 # Task 1
